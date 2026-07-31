@@ -1,0 +1,84 @@
+version: 1
+status: PRE_REGISTERED_BEFORE_FINAL_REAL_BENCHMARK
+score:
+  definition: maximum one-sided 95% lower confidence bound across pre-specified endpoints and target-relevant covered lineages
+  z_value: 1.96
+  observability_fraction_cutoff: 0.05
+  note: A target is abstained when none of its pre-declared lineages is covered or detected in either state.
+endpoints:
+  - study: GSE157857
+    stimulus: IFN_I_18h
+    axis: IFN-I
+    time_hours: 18
+    role: primary
+  - study: GSE178429_IFN_6h
+    stimulus: IFN_II_6h
+    axis: IFN-II
+    time_hours: 6
+    role: primary
+  - study: GSE178429_LPS_6h
+    stimulus: TLR_6h
+    axis: TLR
+    time_hours: 6
+    role: primary
+  - study: GSE140244_24h
+    stimulus: lymphocyte_activation_24h
+    axis: lymphocyte-activation
+    time_hours: 24
+    role: primary
+secondary_timecourse:
+  accession: GSE140244
+  stimuli:
+    - lymphocyte_activation_2h
+    - lymphocyte_activation_4h
+    - lymphocyte_activation_8h
+    - lymphocyte_activation_12h
+    - lymphocyte_activation_24h
+    - lymphocyte_activation_48h
+    - lymphocyte_activation_72h
+annotation_leakage_control:
+  method: leave-target-out marker modules
+  marker_targets:
+    - CD3E
+    - CD79A
+    - MS4A1
+lineage_mapping_basis: Canonical expressing lineages were fixed manually from external biology and were not inferred from benchmark labels or scores.
+target_lineages:
+  IL2RA: [T_cell]
+  TNFRSF9: [T_cell, NK_cell]
+  TNFRSF4: [T_cell]
+  ICOS: [T_cell]
+  PDCD1: [T_cell]
+  CTLA4: [T_cell]
+  CD274: [Myeloid, B_cell]
+  PDCD1LG2: [Myeloid]
+  LAG3: [T_cell, NK_cell]
+  HAVCR2: [T_cell, NK_cell, Myeloid]
+  TIGIT: [T_cell, NK_cell]
+  CD38: [T_cell, B_cell, Myeloid, NK_cell]
+  CD69: [T_cell, NK_cell]
+  TNFRSF18: [T_cell]
+  ENTPD1: [T_cell, NK_cell]
+  CD70: [T_cell, B_cell, Myeloid]
+  MICA: [T_cell, B_cell, Myeloid]
+  MICB: [T_cell, B_cell, Myeloid]
+  HLA-DRA: [Myeloid, B_cell]
+  ICAM1: [Myeloid, B_cell, T_cell]
+  VCAM1: [Myeloid]
+  SIGLEC1: [Myeloid]
+  IDO1: [Myeloid]
+  FAP: [Myeloid]
+  TNFRSF12A: [T_cell, Myeloid]
+  CD19: [B_cell]
+  MS4A1: [B_cell]
+  CD79A: [B_cell]
+  TNFRSF17: [Plasma_cell]
+  GPRC5D: [Plasma_cell]
+  CLDN18: [Epithelial]
+  CLDN6: [Epithelial]
+  DLL3: [Epithelial]
+  CD3E: [T_cell]
+  CD4: [T_cell]
+  CD8A: [T_cell]
+  ERBB2: [Epithelial]
+  FOLR1: [Epithelial]

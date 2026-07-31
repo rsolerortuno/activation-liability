@@ -1,0 +1,90 @@
+version: 1
+status: FROZEN_AFTER_MARKER_ONLY_ANNOTATION_QC_REPAIR
+score:
+  definition: maximum one-sided 95% lower confidence bound across pre-specified paired tissue endpoints and target-relevant covered lineages
+  z_value: 1.96
+  observability_fraction_cutoff: 0.05
+  positive_fraction_cutoff: 0.10
+qc:
+  minimum_library_size: 800
+  minimum_detected_genes: 200
+  maximum_mitochondrial_fraction: 0.25
+  maximum_haemoglobin_fraction: 0.10
+  annotation_min_score: 0.08
+  annotation_min_margin: 0.01
+endpoints:
+  - study: GSE134809
+    stimulus: tissue_inflammation_crohns
+    tissue: ileum
+    resting_label: Uninvolved
+    activated_label: Involved
+    role: primary
+    primary_patients: [rp5, rp7, rp8, rp10, rp11, rp12, rp13, rp14, rp15]
+    sensitivity_only_patients: [rp6, rp16]
+    excluded_lineages: [Epithelial]
+  - study: GSE228421
+    stimulus: tissue_inflammation_psoriasis
+    tissue: skin
+    resting_label: Non_Lesional
+    activated_label: Lesional
+    role: primary
+    primary_patients: [P1, P2, P3, P4, P5]
+    excluded_lineages: []
+negative_binomial_sensitivity:
+  method: statsmodels GLM NegativeBinomial with donor fixed effects and log-library offset
+  alpha_estimator: method of moments after scaling counts to the median library size
+  minimum_pairs: 3
+annotation:
+  method: condition-blind broad marker modules
+  leakage_control: all markers are disjoint from benchmark controls
+  minimum_positive_markers:
+    Plasma_cell: 2
+  markers:
+    T_cell: [CD3D, TRAC, CD247, LCK, LAT]
+    NK_cell: [NKG7, GNLY, KLRD1, PRF1, CTSW]
+    B_cell: [CD37, CD22, CD79B, HVCN1, BANK1]
+    Plasma_cell: [MZB1, JCHAIN, DERL3, SEC11C, FKBP11, IGHG1, IGHA1]
+    Myeloid: [LST1, TYROBP, FCER1G, CTSS, AIF1, LILRB1]
+    Mast_cell: [TPSAB1, TPSB2, KIT, CPA3, HDC]
+    Endothelial: [EMCN, PECAM1, VWF, KDR, ENG, RAMP2]
+    Stromal: [COL1A1, COL1A2, COL3A1, DCN, COL6A1, PDGFRA]
+    Epithelial: [EPCAM, KRT8, KRT18, KRT19, KRT14, KRT5, KRT1, KRT10]
+target_lineages:
+  IL2RA: [T_cell]
+  TNFRSF9: [T_cell, NK_cell]
+  TNFRSF4: [T_cell]
+  ICOS: [T_cell]
+  PDCD1: [T_cell]
+  CTLA4: [T_cell]
+  CD274: [Myeloid, B_cell, Endothelial, Stromal, Epithelial]
+  PDCD1LG2: [Myeloid, Endothelial, Stromal, Epithelial]
+  LAG3: [T_cell, NK_cell]
+  HAVCR2: [T_cell, NK_cell, Myeloid]
+  TIGIT: [T_cell, NK_cell]
+  CD38: [T_cell, B_cell, Myeloid, NK_cell, Plasma_cell]
+  CD69: [T_cell, NK_cell]
+  TNFRSF18: [T_cell]
+  ENTPD1: [T_cell, NK_cell, Endothelial]
+  CD70: [T_cell, B_cell, Myeloid]
+  MICA: [Myeloid, Endothelial, Stromal, Epithelial]
+  MICB: [Myeloid, Endothelial, Stromal, Epithelial]
+  HLA-DRA: [Myeloid, B_cell, Endothelial, Epithelial]
+  ICAM1: [Myeloid, T_cell, Endothelial, Stromal, Epithelial]
+  VCAM1: [Endothelial, Stromal]
+  SIGLEC1: [Myeloid]
+  IDO1: [Myeloid, Endothelial, Stromal, Epithelial]
+  FAP: [Stromal]
+  TNFRSF12A: [Endothelial, Stromal, Epithelial]
+  CD19: [B_cell]
+  MS4A1: [B_cell]
+  CD79A: [B_cell]
+  TNFRSF17: [Plasma_cell]
+  GPRC5D: [Plasma_cell]
+  CLDN18: [Epithelial]
+  CLDN6: [Epithelial]
+  DLL3: [Epithelial]
+  CD3E: [T_cell]
+  CD4: [T_cell]
+  CD8A: [T_cell]
+  ERBB2: [Epithelial]
+  FOLR1: [Epithelial]

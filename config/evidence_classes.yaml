@@ -1,0 +1,28 @@
+version: 1
+hard_abstention:
+  min_paired_donors: 3
+  max_i2: 90.0
+  require_relevant_stimulus: true
+  undetected_both_states: true
+classes:
+  A:
+    min_studies: 2
+    min_paired_donors: 6
+    max_i2: 50.0
+    min_inducibility_lfc: 1.0
+    min_positive_fraction_activated: 0.10
+    protein_concordance: CONCORDANT
+  B:
+    min_studies: 1
+    min_paired_donors: 4
+    max_i2: 75.0
+    min_inducibility_lfc: 0.75
+    min_positive_fraction_activated: 0.10
+    protein_concordance: ANY
+  C:
+    min_studies: 1
+    min_paired_donors: 3
+    max_i2: 90.0
+    min_inducibility_lfc: 0.50
+    min_positive_fraction_activated: 0.05
+    protein_concordance: ANY

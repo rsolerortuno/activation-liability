@@ -1,0 +1,240 @@
+{
+  "blockers": [
+    {
+      "component": "paired_tissue_validation",
+      "reason": "No independent paired inflamed/uninflamed tissue cohort has been converted under frozen rules."
+    },
+    {
+      "component": "control_overlapping_surface_protein",
+      "reason": "The available GSE157857 ADT panel has no benchmark-control target overlap."
+    },
+    {
+      "component": "confirmatory_target_holdout_coverage",
+      "reason": "All three preassigned positive holdout targets abstain in GSE96583 at the frozen 5% observability threshold."
+    }
+  ],
+  "cohorts_executed": [
+    "GSE157857",
+    "GSE178429",
+    "GSE140244",
+    "GSE96583"
+  ],
+  "confirmation_endpoint": "GSE96583/IFN_I_6h_confirmation",
+  "coverage": {
+    "abstained_targets": [
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "VCAM1",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "FAP",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "target": "TNFRSF17",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "target": "GPRC5D",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "CLDN18",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "CLDN6",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "DLL3",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "ERBB2",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "FOLR1",
+        "tier": 2
+      }
+    ],
+    "all_controls": 38,
+    "observable_controls": 29,
+    "observable_tier1_controls": 15,
+    "tier1_controls": 19
+  },
+  "diagnostic_holdout_status": "DIAGNOSTIC_NOT_CONFIRMATORY",
+  "expanded_tier1_tier2": {
+    "auroc": 0.934782608696,
+    "average_precision": 0.98540502476,
+    "exact_mann_whitney_p_one_sided": 0.000189465707,
+    "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+    "n_negative": 6,
+    "n_positive": 23,
+    "n_targets": 29,
+    "perfect_separation_observed": false,
+    "precision_at_10": 1.0,
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD38",
+      "CD3E",
+      "CD4",
+      "CD69",
+      "CD70",
+      "CD79A",
+      "CD8A",
+      "CTLA4",
+      "ENTPD1",
+      "HAVCR2",
+      "HLA-DRA",
+      "ICAM1",
+      "ICOS",
+      "IDO1",
+      "IL2RA",
+      "LAG3",
+      "MICA",
+      "MICB",
+      "MS4A1",
+      "PDCD1",
+      "PDCD1LG2",
+      "SIGLEC1",
+      "TIGIT",
+      "TNFRSF12A",
+      "TNFRSF18",
+      "TNFRSF4",
+      "TNFRSF9"
+    ]
+  },
+  "external_confirmation": {
+    "accession": "GSE96583",
+    "frozen_cutoff_classification_tier1": {
+      "accuracy": 0.727272727273,
+      "balanced_accuracy": 0.75,
+      "confusion": {
+        "false_negative": 3,
+        "false_positive": 0,
+        "true_negative": 5,
+        "true_positive": 3
+      },
+      "cutoff": 0.62860296215,
+      "n_targets": 11,
+      "positive_predictive_value": 1.0,
+      "sensitivity": 0.5,
+      "specificity": 1.0
+    },
+    "score_correlation_with_v0_3": 0.841073271414,
+    "status": "PARTIAL_EXTERNAL_CONFIRMATION_WITH_TARGET_HOLDOUT_ABSTENTION",
+    "target_holdout_status": "INCONCLUSIVE_NO_OBSERVABLE_POSITIVE_HOLDOUT_TARGETS",
+    "tier1_ranking_metrics": {
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "exact_mann_whitney_p_one_sided": 0.002164502165,
+      "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+      "n_negative": 5,
+      "n_positive": 6,
+      "n_targets": 11,
+      "perfect_separation_observed": true,
+      "precision_at_10": 0.6,
+      "targets": [
+        "CD19",
+        "CD274",
+        "CD3E",
+        "CD69",
+        "CD79A",
+        "CD8A",
+        "HLA-DRA",
+        "ICAM1",
+        "IDO1",
+        "MS4A1",
+        "TNFRSF4"
+      ]
+    }
+  },
+  "heterogeneity_status": "NOT_ESTIMABLE_FOR_EXACT_ENDPOINTS",
+  "interpretation": "Coverage-limited public-data validation with one independent IFN-I cohort. The observable control ranking replicated, but the preassigned positive target holdout was not evaluable at the frozen observability threshold.",
+  "primary_endpoints": [
+    "GSE157857/IFN_I_18h",
+    "GSE178429/IFN_II_6h",
+    "GSE178429/TLR_6h",
+    "GSE140244/lymphocyte_activation_24h"
+  ],
+  "primary_tier1": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "exact_mann_whitney_p_one_sided": 0.0001998002,
+    "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+    "n_negative": 6,
+    "n_positive": 9,
+    "n_targets": 15,
+    "perfect_separation_observed": true,
+    "precision_at_10": 0.9,
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD3E",
+      "CD4",
+      "CD69",
+      "CD79A",
+      "CD8A",
+      "HLA-DRA",
+      "ICAM1",
+      "IDO1",
+      "IL2RA",
+      "MS4A1",
+      "PDCD1LG2",
+      "TNFRSF4",
+      "TNFRSF9"
+    ]
+  },
+  "protein_benchmark_status": "UNAVAILABLE_NO_CONTROL_TARGET_OVERLAP",
+  "schema_version": 1,
+  "software_version": "0.4.0",
+  "status": "COMPUTED_REAL_PUBLIC_DATA_WITH_PARTIAL_EXTERNAL_CONFIRMATION"
+}

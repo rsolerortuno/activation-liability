@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="docs/assets/workflow.png" alt="activation-liability workflow" width="100%">
+  <img src="docs/assets/workflow.svg" alt="activation-liability workflow" width="100%">
 </p>
 
 <p align="center">
@@ -17,11 +17,31 @@
   <a href="README_ES.md">Resumen en español</a>
 </p>
 
-![Python](https://img.shields.io/badge/Python-%E2%89%A53.11-informational)
-![License](https://img.shields.io/badge/License-Apache--2.0-informational)
-![Tests](https://img.shields.io/badge/tests-52%20passed-success)
-![Coverage](https://img.shields.io/badge/non--I%2FO%20coverage-85.38%25-success)
-![Evidence](https://img.shields.io/badge/evidence-RNA%20%2B%20paired%20tissue-blue)
+[![CI](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml)
+
+**Runtime:** Python ≥3.11 · **License:** [Apache License 2.0](LICENSE) · **CLI:** `alia`  
+**Verified release:** [52 tests](tests/) · [85.38% non-I/O coverage](docs/PUBLIC_RELEASE_VERIFICATION.md) · RNA + paired-tissue evidence
+
+## Runnable repository
+
+This repository contains the **working software**, not only a results page. Installing the project
+creates the `alia` command-line application. The repository includes:
+
+- the Python package in [`src/activation_liability/`](src/activation_liability/);
+- the complete CLI and all supported commands;
+- 52 automated tests in [`tests/`](tests/);
+- a real GitHub Actions workflow in [`.github/workflows/ci.yml`](.github/workflows/ci.yml);
+- frozen benchmark and tissue-analysis configuration;
+- download, validation and release-building scripts;
+- compact, auditable result artefacts from the executed public cohorts;
+- source-data manifests, official URLs and checksums;
+- methods, assumptions, decisions and limitations.
+
+Multi-gigabyte GEO archives are deliberately **not vendored in GitHub**. They remain available from
+GEO and the public Drive mirror, while this repository records their identities and checksums so
+another user can download the same inputs and reproduce the analysis. See
+[`docs/REPOSITORY_STRUCTURE.md`](docs/REPOSITORY_STRUCTURE.md) and
+[`docs/DATA.md`](docs/DATA.md).
 
 ## The problem
 
@@ -54,7 +74,7 @@ pharmacokinetics and clinical safety remain separate evidence layers.
 ## Evidence programme
 
 <p align="center">
-  <img src="docs/assets/evidence_coverage.png" alt="Evidence coverage by dataset" width="88%">
+  <img src="docs/assets/evidence_coverage.svg" alt="Evidence coverage by dataset" width="88%">
 </p>
 
 The current public release includes four blood/sorted-cell cohorts, an untouched external IFN-I
@@ -65,7 +85,7 @@ add matched surface-protein evidence. It is **not included in the current headli
 ## Current headline results
 
 <p align="center">
-  <img src="docs/assets/benchmark_overview.png" alt="Benchmark overview" width="82%">
+  <img src="docs/assets/benchmark_overview.svg" alt="Benchmark overview" width="82%">
 </p>
 
 The paired-tissue benchmark evaluates 15 observable tier-1 controls and achieves AUROC 0.821 and
@@ -74,7 +94,7 @@ in psoriasis B cells and CD69 falling in Crohn NK cells. Eight positive controls
 additional broad lineages during inflammation.
 
 <p align="center">
-  <img src="docs/assets/footprint_expansion.png" alt="Inflammation-associated footprint expansion" width="78%">
+  <img src="docs/assets/footprint_expansion.svg" alt="Inflammation-associated footprint expansion" width="78%">
 </p>
 
 ## Public data access

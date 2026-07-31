@@ -1,0 +1,39 @@
+target,label,tier,y_true,expected_lineages,covered_lineages,observable_fraction_max,observable,abstention_reason,score,driver_stimulus,driver_cell_type,driver_effect,driver_standard_error,driver_total_pairs,driver_positive_fraction_resting,driver_positive_fraction_activated
+CD38,positive,2,1,"['T_cell', 'B_cell', 'Myeloid', 'NK_cell']","['B_cell', 'Myeloid', 'NK_cell', 'T_cell']",0.384134134134,True,,5.41673084943,IFN_I_6h_confirmation,Myeloid,6.108459809591,0.352922938858,8.0,0.00813648294,0.384134134134
+LAG3,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",0.271084337349,True,,4.120542873713,IFN_I_6h_confirmation,NK_cell,5.413948072435,0.659900611593,8.0,0.01814516129,0.271084337349
+IDO1,positive,1,1,['Myeloid'],['Myeloid'],0.802802802803,True,,3.797827633039,IFN_I_6h_confirmation,Myeloid,4.259370488207,0.235481048555,8.0,0.083989501312,0.802802802803
+SIGLEC1,positive,2,1,['Myeloid'],['Myeloid'],0.106106106106,True,,3.612295547503,IFN_I_6h_confirmation,Myeloid,4.327084792076,0.364688390088,8.0,0.005511811024,0.106106106106
+CD274,positive,1,1,"['Myeloid', 'B_cell']","['B_cell', 'Myeloid']",0.107857857858,True,,2.772270123564,IFN_I_6h_confirmation,Myeloid,3.481178092095,0.361687739046,8.0,0.010761154856,0.107857857858
+CD69,positive,1,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",0.359255202629,True,,1.310637412539,IFN_I_6h_confirmation,T_cell,1.527308783411,0.110546617792,8.0,0.099101123596,0.233291298865
+HAVCR2,positive,2,1,"['T_cell', 'NK_cell', 'Myeloid']","['Myeloid', 'NK_cell', 'T_cell']",0.359109109109,True,,1.196955018125,IFN_I_6h_confirmation,Myeloid,1.336713087747,0.071305137562,8.0,0.176377952756,0.359109109109
+ICOS,positive,2,1,['T_cell'],['T_cell'],0.061538461538,True,,0.413646913695,IFN_I_6h_confirmation,T_cell,1.089734193024,0.344942489454,8.0,0.033258426966,0.061538461538
+TNFRSF4,positive,1,1,['T_cell'],['T_cell'],0.063808322825,True,,-0.025841253097,IFN_I_6h_confirmation,T_cell,0.153230180544,0.091362976347,8.0,0.057078651685,0.063808322825
+TIGIT,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",0.157258064516,True,,-0.3122381805,IFN_I_6h_confirmation,T_cell,-0.07785337136,0.119584086296,8.0,0.077752808989,0.080201765448
+HLA-DRA,positive,1,1,"['Myeloid', 'B_cell']","['B_cell', 'Myeloid']",0.925984251969,True,,-0.474500038623,IFN_I_6h_confirmation,Myeloid,-0.371105334517,0.052752400054,8.0,0.925984251969,0.890640640641
+CD70,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",0.057553956835,True,,-0.527791375094,IFN_I_6h_confirmation,B_cell,0.257430656863,0.400623485692,8.0,0.057553956835,0.047142857143
+ICAM1,positive,1,1,"['Myeloid', 'B_cell', 'T_cell']","['B_cell', 'Myeloid', 'T_cell']",0.115748031496,True,,-0.563802878811,IFN_I_6h_confirmation,B_cell,1.460715792698,1.032917689545,8.0,0.00196206671,0.012857142857
+CD19,negative,1,0,['B_cell'],['B_cell'],0.077174623937,True,,-0.650817385711,IFN_I_6h_confirmation,B_cell,-0.330397768439,0.163479396568,8.0,0.077174623937,0.075
+CD8A,negative,1,0,['T_cell'],['T_cell'],0.10606741573,True,,-0.820160179098,IFN_I_6h_confirmation,T_cell,-0.413128757348,0.207669092729,8.0,0.10606741573,0.079949558638
+CD3E,negative,1,0,['T_cell'],['T_cell'],0.372654155496,True,,-0.822303859549,IFN_I_6h_confirmation,T_cell,-0.700409198111,0.062191153795,8.0,0.372654155496,0.273729497177
+MS4A1,negative,1,0,['B_cell'],['B_cell'],0.399608865711,True,,-0.998577324596,IFN_I_6h_confirmation,B_cell,-0.57045285433,0.218430852177,8.0,0.399608865711,0.310734463277
+CD79A,negative,1,0,['B_cell'],['B_cell'],0.617379117029,True,,-1.073409054049,IFN_I_6h_confirmation,B_cell,-0.877818120902,0.099791292422,8.0,0.617379117029,0.456948640483
+IL2RA,positive,1,1,['T_cell'],['T_cell'],0.008322824716,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,0.820666016692,0.913862146931,8.0,0.002696629213,0.008322824716
+TNFRSF9,positive,1,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",0.01747311828,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,NK_cell,0.079213573359,0.97598860368,8.0,0.01747311828,0.016976998905
+PDCD1,positive,2,1,['T_cell'],['T_cell'],0.003783102144,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,1.006998032436,0.728189225762,8.0,0.000898876404,0.003783102144
+CTLA4,positive,2,1,['T_cell'],['T_cell'],0.029003783102,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,0.293827728091,0.324566831942,8.0,0.019325842697,0.029003783102
+PDCD1LG2,positive,1,1,['Myeloid'],['Myeloid'],0.028278278278,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,Myeloid,2.856452321401,0.499489125949,8.0,0.003674540682,0.028278278278
+TNFRSF18,positive,2,1,['T_cell'],['T_cell'],0.03595505618,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,-0.395869783974,0.170078834373,8.0,0.03595505618,0.027238335435
+ENTPD1,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",0.004928806134,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,NK_cell,0.600574233111,0.674099361556,8.0,0.004032258065,0.004928806134
+MICA,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",0.038845144357,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,B_cell,1.69575595433,0.582401122095,8.0,0.005886200131,0.017857142857
+MICB,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",0.046046046046,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,Myeloid,1.936971655264,0.292810599587,8.0,0.011286089239,0.046046046046
+VCAM1,positive,2,1,['Myeloid'],['Myeloid'],0.000262467192,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,Myeloid,-0.073776983211,0.207492489469,8.0,0.000262467192,0.00025025025
+FAP,positive,2,1,['Myeloid'],['Myeloid'],0.0,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,Myeloid,0.0,1e-06,8.0,0.0,0.0
+TNFRSF12A,positive,2,1,"['T_cell', 'Myeloid']","['Myeloid', 'T_cell']",0.032545931759,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,-1.116731361007,0.199167565641,8.0,0.012808988764,0.005044136192
+TNFRSF17,negative,1,0,['Plasma_cell'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+GPRC5D,negative,1,0,['Plasma_cell'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+CLDN18,negative,1,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+CLDN6,negative,1,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+DLL3,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+CD4,negative,1,0,['T_cell'],['T_cell'],0.010786516854,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_6h_confirmation,T_cell,-0.569374851964,0.359701089013,8.0,0.010786516854,0.008827238335
+ERBB2,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+FOLR1,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,

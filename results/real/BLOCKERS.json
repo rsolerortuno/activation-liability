@@ -1,0 +1,18 @@
+{
+  "blockers": [
+    {
+      "component": "control_overlapping_surface_protein",
+      "reason": "The available GSE157857 ADT panel has no exact benchmark-control target overlap, and both paired tissue cohorts are RNA-only."
+    },
+    {
+      "component": "confirmatory_target_holdout_coverage",
+      "reason": "All three preassigned positive holdout targets abstain in GSE96583 at the frozen 5% observability threshold."
+    },
+    {
+      "component": "independent_tissue_replication",
+      "reason": "The paired tissue result has not yet been reproduced in a third untouched disease cohort or with independent source-author/reference annotations."
+    }
+  ],
+  "schema_version": 1,
+  "status": "REAL_VALIDATION_WITH_EXTERNAL_IFN_I_AND_PAIRED_TISSUE_EXTENSION"
+}

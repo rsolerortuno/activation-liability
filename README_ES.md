@@ -4,8 +4,13 @@
 de una diana superficial cuando las células normales se activan o se inflaman.
 
 <p align="center">
-  <img src="docs/assets/workflow.png" alt="Flujo de activation-liability" width="100%">
+  <img src="docs/assets/workflow.svg" alt="Flujo de activation-liability" width="100%">
 </p>
+
+[![CI](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml)
+
+**Entorno:** Python ≥3.11 · **Licencia:** [Apache License 2.0](LICENSE) · **CLI:** `alia`  
+**Release verificado:** [52 tests](tests/) · [85,38 % de cobertura no-I/O](docs/PUBLIC_RELEASE_VERIFICATION.md)
 
 ## Idea central
 
@@ -39,11 +44,11 @@ pasar por alto**.
 - Próxima fase: GSE190564 para añadir RNA y proteína superficial en colon inflamado/no inflamado.
 
 <p align="center">
-  <img src="docs/assets/benchmark_overview.png" alt="Resultados de benchmarks" width="82%">
+  <img src="docs/assets/benchmark_overview.svg" alt="Resultados de benchmarks" width="82%">
 </p>
 
 <p align="center">
-  <img src="docs/assets/footprint_expansion.png" alt="Expansión del footprint" width="78%">
+  <img src="docs/assets/footprint_expansion.svg" alt="Expansión del footprint" width="78%">
 </p>
 
 ## Acceso

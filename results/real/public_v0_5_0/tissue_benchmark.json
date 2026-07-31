@@ -1,0 +1,4119 @@
+{
+  "annotation_composition": [
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.141469731305,
+      "lineage": "B_cell",
+      "n_cells": 437
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.030430560052,
+      "lineage": "Endothelial",
+      "n_cells": 94
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.000647458725,
+      "lineage": "Epithelial",
+      "n_cells": 2
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.003884752347,
+      "lineage": "Mast_cell",
+      "n_cells": 12
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.070573000971,
+      "lineage": "Myeloid",
+      "n_cells": 218
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.063774684364,
+      "lineage": "NK_cell",
+      "n_cells": 197
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.258983489803,
+      "lineage": "Plasma_cell",
+      "n_cells": 800
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.152800258983,
+      "lineage": "Stromal",
+      "n_cells": 472
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.250242797022,
+      "lineage": "T_cell",
+      "n_cells": 773
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp5",
+      "fraction": 0.027193266429,
+      "lineage": "Unknown",
+      "n_cells": 84
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.011899579161,
+      "lineage": "B_cell",
+      "n_cells": 82
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.007836308228,
+      "lineage": "Endothelial",
+      "n_cells": 54
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.013931214628,
+      "lineage": "Epithelial",
+      "n_cells": 96
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.002321869105,
+      "lineage": "Mast_cell",
+      "n_cells": 16
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.02263822377,
+      "lineage": "Myeloid",
+      "n_cells": 156
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.008271658685,
+      "lineage": "NK_cell",
+      "n_cells": 57
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.857640400522,
+      "lineage": "Plasma_cell",
+      "n_cells": 5910
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.003337686838,
+      "lineage": "Stromal",
+      "n_cells": 23
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.063270933101,
+      "lineage": "T_cell",
+      "n_cells": 436
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp5",
+      "fraction": 0.008852125961,
+      "lineage": "Unknown",
+      "n_cells": 61
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.18445229682,
+      "lineage": "B_cell",
+      "n_cells": 522
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.026855123675,
+      "lineage": "Endothelial",
+      "n_cells": 76
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.013427561837,
+      "lineage": "Epithelial",
+      "n_cells": 38
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.001766784452,
+      "lineage": "Mast_cell",
+      "n_cells": 5
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.14628975265,
+      "lineage": "Myeloid",
+      "n_cells": 414
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.072084805654,
+      "lineage": "NK_cell",
+      "n_cells": 204
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.354416961131,
+      "lineage": "Plasma_cell",
+      "n_cells": 1003
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.02332155477,
+      "lineage": "Stromal",
+      "n_cells": 66
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.158303886926,
+      "lineage": "T_cell",
+      "n_cells": 448
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp7",
+      "fraction": 0.019081272085,
+      "lineage": "Unknown",
+      "n_cells": 54
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.028680688337,
+      "lineage": "B_cell",
+      "n_cells": 60
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.011950286807,
+      "lineage": "Endothelial",
+      "n_cells": 25
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.029636711281,
+      "lineage": "Epithelial",
+      "n_cells": 62
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.00430210325,
+      "lineage": "Mast_cell",
+      "n_cells": 9
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.055927342256,
+      "lineage": "Myeloid",
+      "n_cells": 117
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.106118546845,
+      "lineage": "NK_cell",
+      "n_cells": 222
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.172084130019,
+      "lineage": "Plasma_cell",
+      "n_cells": 360
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.03154875717,
+      "lineage": "Stromal",
+      "n_cells": 66
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.533938814532,
+      "lineage": "T_cell",
+      "n_cells": 1117
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp7",
+      "fraction": 0.025812619503,
+      "lineage": "Unknown",
+      "n_cells": 54
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.321233536781,
+      "lineage": "B_cell",
+      "n_cells": 1000
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.003533568905,
+      "lineage": "Endothelial",
+      "n_cells": 11
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.083520719563,
+      "lineage": "Epithelial",
+      "n_cells": 260
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.001284934147,
+      "lineage": "Mast_cell",
+      "n_cells": 4
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.058785737231,
+      "lineage": "Myeloid",
+      "n_cells": 183
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.037584323803,
+      "lineage": "NK_cell",
+      "n_cells": 117
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.084484420173,
+      "lineage": "Plasma_cell",
+      "n_cells": 263
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.010600706714,
+      "lineage": "Stromal",
+      "n_cells": 33
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.351429489239,
+      "lineage": "T_cell",
+      "n_cells": 1094
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp8",
+      "fraction": 0.047542563444,
+      "lineage": "Unknown",
+      "n_cells": 148
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.333657587549,
+      "lineage": "B_cell",
+      "n_cells": 1372
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.017752918288,
+      "lineage": "Endothelial",
+      "n_cells": 73
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.005350194553,
+      "lineage": "Epithelial",
+      "n_cells": 22
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.002188715953,
+      "lineage": "Mast_cell",
+      "n_cells": 9
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.053988326848,
+      "lineage": "Myeloid",
+      "n_cells": 222
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.04280155642,
+      "lineage": "NK_cell",
+      "n_cells": 176
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.205496108949,
+      "lineage": "Plasma_cell",
+      "n_cells": 845
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.018968871595,
+      "lineage": "Stromal",
+      "n_cells": 78
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.264348249027,
+      "lineage": "T_cell",
+      "n_cells": 1087
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp8",
+      "fraction": 0.055447470817,
+      "lineage": "Unknown",
+      "n_cells": 228
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.032559380838,
+      "lineage": "B_cell",
+      "n_cells": 122
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.00667200427,
+      "lineage": "Endothelial",
+      "n_cells": 25
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.153722978383,
+      "lineage": "Epithelial",
+      "n_cells": 576
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.002935681879,
+      "lineage": "Mast_cell",
+      "n_cells": 11
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.070456365092,
+      "lineage": "Myeloid",
+      "n_cells": 264
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.060581798772,
+      "lineage": "NK_cell",
+      "n_cells": 227
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.318388043768,
+      "lineage": "Plasma_cell",
+      "n_cells": 1193
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.005604483587,
+      "lineage": "Stromal",
+      "n_cells": 21
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.307712836936,
+      "lineage": "T_cell",
+      "n_cells": 1153
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp10",
+      "fraction": 0.041366426475,
+      "lineage": "Unknown",
+      "n_cells": 155
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.090987370838,
+      "lineage": "B_cell",
+      "n_cells": 317
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.009758897819,
+      "lineage": "Endothelial",
+      "n_cells": 34
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.242824339839,
+      "lineage": "Epithelial",
+      "n_cells": 846
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.003731343284,
+      "lineage": "Mast_cell",
+      "n_cells": 13
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.058266360505,
+      "lineage": "Myeloid",
+      "n_cells": 203
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.049655568312,
+      "lineage": "NK_cell",
+      "n_cells": 173
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.148392652124,
+      "lineage": "Plasma_cell",
+      "n_cells": 517
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.018082663605,
+      "lineage": "Stromal",
+      "n_cells": 63
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.343570608496,
+      "lineage": "T_cell",
+      "n_cells": 1197
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp10",
+      "fraction": 0.034730195178,
+      "lineage": "Unknown",
+      "n_cells": 121
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.031216743526,
+      "lineage": "B_cell",
+      "n_cells": 88
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.004966300106,
+      "lineage": "Endothelial",
+      "n_cells": 14
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.10713018801,
+      "lineage": "Epithelial",
+      "n_cells": 302
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.012061014544,
+      "lineage": "Mast_cell",
+      "n_cells": 34
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.0940049663,
+      "lineage": "Myeloid",
+      "n_cells": 265
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.057467186946,
+      "lineage": "NK_cell",
+      "n_cells": 162
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.283433841788,
+      "lineage": "Plasma_cell",
+      "n_cells": 799
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.025540971976,
+      "lineage": "Stromal",
+      "n_cells": 72
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.361475700603,
+      "lineage": "T_cell",
+      "n_cells": 1019
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp11",
+      "fraction": 0.022703086201,
+      "lineage": "Unknown",
+      "n_cells": 64
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.24054231358,
+      "lineage": "B_cell",
+      "n_cells": 2200
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.008090968729,
+      "lineage": "Endothelial",
+      "n_cells": 74
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.009403017713,
+      "lineage": "Epithelial",
+      "n_cells": 86
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.003826809534,
+      "lineage": "Mast_cell",
+      "n_cells": 35
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.038486770173,
+      "lineage": "Myeloid",
+      "n_cells": 352
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.038924119834,
+      "lineage": "NK_cell",
+      "n_cells": 356
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.272906188498,
+      "lineage": "Plasma_cell",
+      "n_cells": 2496
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.004373496611,
+      "lineage": "Stromal",
+      "n_cells": 40
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.337524600918,
+      "lineage": "T_cell",
+      "n_cells": 3087
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp11",
+      "fraction": 0.045921714411,
+      "lineage": "Unknown",
+      "n_cells": 420
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.068318821165,
+      "lineage": "B_cell",
+      "n_cells": 306
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.02612190221,
+      "lineage": "Endothelial",
+      "n_cells": 117
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.037954900647,
+      "lineage": "Epithelial",
+      "n_cells": 170
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.004465282429,
+      "lineage": "Mast_cell",
+      "n_cells": 20
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.107166778299,
+      "lineage": "Myeloid",
+      "n_cells": 480
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.087742799732,
+      "lineage": "NK_cell",
+      "n_cells": 393
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.135967849967,
+      "lineage": "Plasma_cell",
+      "n_cells": 609
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.010046885466,
+      "lineage": "Stromal",
+      "n_cells": 45
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.453002902434,
+      "lineage": "T_cell",
+      "n_cells": 2029
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp12",
+      "fraction": 0.069211877651,
+      "lineage": "Unknown",
+      "n_cells": 310
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.032062391681,
+      "lineage": "B_cell",
+      "n_cells": 37
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.086655112652,
+      "lineage": "Endothelial",
+      "n_cells": 100
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.013864818024,
+      "lineage": "Epithelial",
+      "n_cells": 16
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.00259965338,
+      "lineage": "Mast_cell",
+      "n_cells": 3
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.223570190641,
+      "lineage": "Myeloid",
+      "n_cells": 258
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.038128249567,
+      "lineage": "NK_cell",
+      "n_cells": 44
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.389081455806,
+      "lineage": "Plasma_cell",
+      "n_cells": 449
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.044194107452,
+      "lineage": "Stromal",
+      "n_cells": 51
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.130849220104,
+      "lineage": "T_cell",
+      "n_cells": 151
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp12",
+      "fraction": 0.038994800693,
+      "lineage": "Unknown",
+      "n_cells": 45
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.028311425683,
+      "lineage": "B_cell",
+      "n_cells": 140
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.051971688574,
+      "lineage": "Endothelial",
+      "n_cells": 257
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.003640040445,
+      "lineage": "Epithelial",
+      "n_cells": 18
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.001213346815,
+      "lineage": "Mast_cell",
+      "n_cells": 6
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.095854398382,
+      "lineage": "Myeloid",
+      "n_cells": 474
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.068351870576,
+      "lineage": "NK_cell",
+      "n_cells": 338
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.186248736097,
+      "lineage": "Plasma_cell",
+      "n_cells": 921
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.090394337715,
+      "lineage": "Stromal",
+      "n_cells": 447
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.442264914055,
+      "lineage": "T_cell",
+      "n_cells": 2187
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp13",
+      "fraction": 0.031749241658,
+      "lineage": "Unknown",
+      "n_cells": 157
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.093256814921,
+      "lineage": "B_cell",
+      "n_cells": 455
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.011682721869,
+      "lineage": "Endothelial",
+      "n_cells": 57
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.018651362984,
+      "lineage": "Epithelial",
+      "n_cells": 91
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.00143472023,
+      "lineage": "Mast_cell",
+      "n_cells": 7
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.053494568559,
+      "lineage": "Myeloid",
+      "n_cells": 261
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.035253125641,
+      "lineage": "NK_cell",
+      "n_cells": 172
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.402951424472,
+      "lineage": "Plasma_cell",
+      "n_cells": 1966
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.01537200246,
+      "lineage": "Stromal",
+      "n_cells": 75
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.337364213978,
+      "lineage": "T_cell",
+      "n_cells": 1646
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp13",
+      "fraction": 0.030539044886,
+      "lineage": "Unknown",
+      "n_cells": 149
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.12039582188,
+      "lineage": "B_cell",
+      "n_cells": 876
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.024876305662,
+      "lineage": "Endothelial",
+      "n_cells": 181
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.01649257834,
+      "lineage": "Epithelial",
+      "n_cells": 120
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.005085211655,
+      "lineage": "Mast_cell",
+      "n_cells": 37
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.077789994502,
+      "lineage": "Myeloid",
+      "n_cells": 566
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.060335349093,
+      "lineage": "NK_cell",
+      "n_cells": 439
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.199422759758,
+      "lineage": "Plasma_cell",
+      "n_cells": 1451
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.012231995602,
+      "lineage": "Stromal",
+      "n_cells": 89
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.410940076965,
+      "lineage": "T_cell",
+      "n_cells": 2990
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp14",
+      "fraction": 0.072429906542,
+      "lineage": "Unknown",
+      "n_cells": 527
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.132641677822,
+      "lineage": "B_cell",
+      "n_cells": 1189
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.0093708166,
+      "lineage": "Endothelial",
+      "n_cells": 84
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.006358768407,
+      "lineage": "Epithelial",
+      "n_cells": 57
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.002565818831,
+      "lineage": "Mast_cell",
+      "n_cells": 23
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.062806782686,
+      "lineage": "Myeloid",
+      "n_cells": 563
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.055332440875,
+      "lineage": "NK_cell",
+      "n_cells": 496
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.374386434627,
+      "lineage": "Plasma_cell",
+      "n_cells": 3356
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.003792949576,
+      "lineage": "Stromal",
+      "n_cells": 34
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.284359660866,
+      "lineage": "T_cell",
+      "n_cells": 2549
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp14",
+      "fraction": 0.06838464971,
+      "lineage": "Unknown",
+      "n_cells": 613
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.084120171674,
+      "lineage": "B_cell",
+      "n_cells": 196
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.004721030043,
+      "lineage": "Endothelial",
+      "n_cells": 11
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.193991416309,
+      "lineage": "Epithelial",
+      "n_cells": 452
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.002145922747,
+      "lineage": "Mast_cell",
+      "n_cells": 5
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.071244635193,
+      "lineage": "Myeloid",
+      "n_cells": 166
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.030901287554,
+      "lineage": "NK_cell",
+      "n_cells": 72
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.207725321888,
+      "lineage": "Plasma_cell",
+      "n_cells": 484
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.004721030043,
+      "lineage": "Stromal",
+      "n_cells": 11
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.383690987124,
+      "lineage": "T_cell",
+      "n_cells": 894
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "resting",
+      "donor": "rp15",
+      "fraction": 0.016738197425,
+      "lineage": "Unknown",
+      "n_cells": 39
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.062051649928,
+      "lineage": "B_cell",
+      "n_cells": 173
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.010760401722,
+      "lineage": "Endothelial",
+      "n_cells": 30
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.073170731707,
+      "lineage": "Epithelial",
+      "n_cells": 204
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.001793400287,
+      "lineage": "Mast_cell",
+      "n_cells": 5
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.093615494978,
+      "lineage": "Myeloid",
+      "n_cells": 261
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.032639885222,
+      "lineage": "NK_cell",
+      "n_cells": 91
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.41068866571,
+      "lineage": "Plasma_cell",
+      "n_cells": 1145
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.02331420373,
+      "lineage": "Stromal",
+      "n_cells": 65
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.270444763271,
+      "lineage": "T_cell",
+      "n_cells": 754
+    },
+    {
+      "accession": "GSE134809",
+      "condition": "activated",
+      "donor": "rp15",
+      "fraction": 0.021520803443,
+      "lineage": "Unknown",
+      "n_cells": 60
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.000924072078,
+      "lineage": "B_cell",
+      "n_cells": 12
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.04273833359,
+      "lineage": "Endothelial",
+      "n_cells": 555
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.732404127522,
+      "lineage": "Epithelial",
+      "n_cells": 9511
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.021176651779,
+      "lineage": "Mast_cell",
+      "n_cells": 275
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.058909594948,
+      "lineage": "Myeloid",
+      "n_cells": 765
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.004004312336,
+      "lineage": "NK_cell",
+      "n_cells": 52
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.000462036039,
+      "lineage": "Plasma_cell",
+      "n_cells": 6
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.123286616356,
+      "lineage": "Stromal",
+      "n_cells": 1601
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.01178191899,
+      "lineage": "T_cell",
+      "n_cells": 153
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P1",
+      "fraction": 0.004312336362,
+      "lineage": "Unknown",
+      "n_cells": 56
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.004764173416,
+      "lineage": "B_cell",
+      "n_cells": 40
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.114816579323,
+      "lineage": "Endothelial",
+      "n_cells": 964
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.521319676036,
+      "lineage": "Epithelial",
+      "n_cells": 4377
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.03287279657,
+      "lineage": "Mast_cell",
+      "n_cells": 276
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.033944735588,
+      "lineage": "Myeloid",
+      "n_cells": 285
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.004525964745,
+      "lineage": "NK_cell",
+      "n_cells": 38
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.000833730348,
+      "lineage": "Plasma_cell",
+      "n_cells": 7
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.248689852311,
+      "lineage": "Stromal",
+      "n_cells": 2088
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.022034302049,
+      "lineage": "T_cell",
+      "n_cells": 185
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P1",
+      "fraction": 0.016198189614,
+      "lineage": "Unknown",
+      "n_cells": 136
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.006176800898,
+      "lineage": "B_cell",
+      "n_cells": 77
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.108775870367,
+      "lineage": "Endothelial",
+      "n_cells": 1356
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.404460131558,
+      "lineage": "Epithelial",
+      "n_cells": 5042
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.027354403979,
+      "lineage": "Mast_cell",
+      "n_cells": 341
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.140863147762,
+      "lineage": "Myeloid",
+      "n_cells": 1756
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.003288945933,
+      "lineage": "NK_cell",
+      "n_cells": 41
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.001042836515,
+      "lineage": "Plasma_cell",
+      "n_cells": 13
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.292796406225,
+      "lineage": "Stromal",
+      "n_cells": 3650
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.003529600513,
+      "lineage": "T_cell",
+      "n_cells": 44
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P2",
+      "fraction": 0.011711856249,
+      "lineage": "Unknown",
+      "n_cells": 146
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.003698166654,
+      "lineage": "B_cell",
+      "n_cells": 47
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.0808088756,
+      "lineage": "Endothelial",
+      "n_cells": 1027
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.528129671886,
+      "lineage": "Epithelial",
+      "n_cells": 6712
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.036902982139,
+      "lineage": "Mast_cell",
+      "n_cells": 469
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.053820127469,
+      "lineage": "Myeloid",
+      "n_cells": 684
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.000236053191,
+      "lineage": "NK_cell",
+      "n_cells": 3
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.000472106381,
+      "lineage": "Plasma_cell",
+      "n_cells": 6
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.279172240145,
+      "lineage": "Stromal",
+      "n_cells": 3548
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.002124478716,
+      "lineage": "T_cell",
+      "n_cells": 27
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P2",
+      "fraction": 0.01463529782,
+      "lineage": "Unknown",
+      "n_cells": 186
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.010398173979,
+      "lineage": "B_cell",
+      "n_cells": 123
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.107870487784,
+      "lineage": "Endothelial",
+      "n_cells": 1276
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.403499873193,
+      "lineage": "Epithelial",
+      "n_cells": 4773
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.015639529969,
+      "lineage": "Mast_cell",
+      "n_cells": 185
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.137712401725,
+      "lineage": "Myeloid",
+      "n_cells": 1629
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.003296981993,
+      "lineage": "NK_cell",
+      "n_cells": 39
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.001268069997,
+      "lineage": "Plasma_cell",
+      "n_cells": 15
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.29512215741,
+      "lineage": "Stromal",
+      "n_cells": 3491
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.003212443994,
+      "lineage": "T_cell",
+      "n_cells": 38
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P3",
+      "fraction": 0.021979879956,
+      "lineage": "Unknown",
+      "n_cells": 260
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.005274173294,
+      "lineage": "B_cell",
+      "n_cells": 63
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.077940560904,
+      "lineage": "Endothelial",
+      "n_cells": 931
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.512515696944,
+      "lineage": "Epithelial",
+      "n_cells": 6122
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.025533696107,
+      "lineage": "Mast_cell",
+      "n_cells": 305
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.053244035161,
+      "lineage": "Myeloid",
+      "n_cells": 636
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 8.3717036e-05,
+      "lineage": "NK_cell",
+      "n_cells": 1
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.000502302219,
+      "lineage": "Plasma_cell",
+      "n_cells": 6
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.27919631645,
+      "lineage": "Stromal",
+      "n_cells": 3335
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.001925491838,
+      "lineage": "T_cell",
+      "n_cells": 23
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P3",
+      "fraction": 0.043784010046,
+      "lineage": "Unknown",
+      "n_cells": 523
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.000737221494,
+      "lineage": "B_cell",
+      "n_cells": 9
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.044479030144,
+      "lineage": "Endothelial",
+      "n_cells": 543
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.639007208388,
+      "lineage": "Epithelial",
+      "n_cells": 7801
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.054144823067,
+      "lineage": "Mast_cell",
+      "n_cells": 661
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.079292267366,
+      "lineage": "Myeloid",
+      "n_cells": 968
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.004750982962,
+      "lineage": "NK_cell",
+      "n_cells": 58
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.000573394495,
+      "lineage": "Plasma_cell",
+      "n_cells": 7
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.168577981651,
+      "lineage": "Stromal",
+      "n_cells": 2058
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.004587155963,
+      "lineage": "T_cell",
+      "n_cells": 56
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P4",
+      "fraction": 0.003849934469,
+      "lineage": "Unknown",
+      "n_cells": 47
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.003286060187,
+      "lineage": "B_cell",
+      "n_cells": 38
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.067191283293,
+      "lineage": "Endothelial",
+      "n_cells": 777
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.545399515738,
+      "lineage": "Epithelial",
+      "n_cells": 6307
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.025164303009,
+      "lineage": "Mast_cell",
+      "n_cells": 291
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.079297820823,
+      "lineage": "Myeloid",
+      "n_cells": 917
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.018332756832,
+      "lineage": "NK_cell",
+      "n_cells": 212
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.000691802145,
+      "lineage": "Plasma_cell",
+      "n_cells": 8
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.217831200277,
+      "lineage": "Stromal",
+      "n_cells": 2519
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.032687651332,
+      "lineage": "T_cell",
+      "n_cells": 378
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P4",
+      "fraction": 0.010117606365,
+      "lineage": "Unknown",
+      "n_cells": 117
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.003410492707,
+      "lineage": "B_cell",
+      "n_cells": 47
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.048399970975,
+      "lineage": "Endothelial",
+      "n_cells": 667
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.539656048182,
+      "lineage": "Epithelial",
+      "n_cells": 7437
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.009288150352,
+      "lineage": "Mast_cell",
+      "n_cells": 128
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.136709962993,
+      "lineage": "Myeloid",
+      "n_cells": 1884
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.003047674334,
+      "lineage": "NK_cell",
+      "n_cells": 42
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.003265365358,
+      "lineage": "Plasma_cell",
+      "n_cells": 45
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.24352369204,
+      "lineage": "Stromal",
+      "n_cells": 3356
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.006603294391,
+      "lineage": "T_cell",
+      "n_cells": 91
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "activated",
+      "donor": "P5",
+      "fraction": 0.006095348668,
+      "lineage": "Unknown",
+      "n_cells": 84
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.003160966121,
+      "lineage": "B_cell",
+      "n_cells": 39
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.072945372021,
+      "lineage": "Endothelial",
+      "n_cells": 900
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.529907602529,
+      "lineage": "Epithelial",
+      "n_cells": 6538
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.023099367807,
+      "lineage": "Mast_cell",
+      "n_cells": 285
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.040768357919,
+      "lineage": "Myeloid",
+      "n_cells": 503
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.01037445291,
+      "lineage": "NK_cell",
+      "n_cells": 128
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.001134705787,
+      "lineage": "Plasma_cell",
+      "n_cells": 14
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.287080564111,
+      "lineage": "Stromal",
+      "n_cells": 3542
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.010293402496,
+      "lineage": "T_cell",
+      "n_cells": 127
+    },
+    {
+      "accession": "GSE228421",
+      "condition": "resting",
+      "donor": "P5",
+      "fraction": 0.0212352083,
+      "lineage": "Unknown",
+      "n_cells": 262
+    }
+  ],
+  "claims": {
+    "conditional": [
+      "Target-level tissue inducibility claims require the named cohort, broad lineage, paired-donor coverage and confidence interval reported in tissue_audit_rows.csv."
+    ],
+    "permitted": [
+      "The analysed paired cohorts contain normal-cell lineages whose RNA footprint expands during tissue inflammation.",
+      "The tissue extension increases biological lineage coverage relative to the PBMC-only benchmark."
+    ],
+    "unsupported": [
+      "Clinical toxicity prediction",
+      "Surface-protein induction for tissue targets",
+      "Delivery, exposure or therapeutic-index prediction",
+      "Epithelial conclusions from GSE134809"
+    ]
+  },
+  "cohorts": {
+    "GSE134809": {
+      "contrast": "involved versus uninvolved within patient",
+      "epithelial_claims": "UNSUPPORTED_EXCLUDED_BY_ORIGINAL_DISSOCIATION_DESIGN",
+      "primary_pairs": 9,
+      "sensitivity_pairs": 11,
+      "tissue": "ileum"
+    },
+    "GSE228421": {
+      "contrast": "baseline lesional versus baseline non-lesional within patient",
+      "post_treatment_visits": "EXCLUDED_FROM_PRIMARY",
+      "primary_pairs": 5,
+      "tissue": "skin"
+    }
+  },
+  "coverage_gain": {
+    "baseline_observable_but_not_tissue_observable": [
+      "CD70",
+      "MICB",
+      "PDCD1LG2"
+    ],
+    "newly_observable_count": 4,
+    "newly_observable_targets": [
+      "ERBB2",
+      "FAP",
+      "TNFRSF17",
+      "VCAM1"
+    ],
+    "note": "Tissue coverage is an extension, not a replacement; loss here means a target was not observable in the tissue cohorts, not that baseline evidence was invalidated."
+  },
+  "crohn_published_exclusion_sensitivity": {
+    "direction_agreement": 0.924342105263,
+    "maximum_absolute_effect_change": 1.138853249411,
+    "median_absolute_effect_change": 0.135520715036,
+    "n_matched_effects": 304,
+    "spearman_effect_correlation": 0.939467007137
+  },
+  "donor_robustness": {
+    "direction_stable_count": 27,
+    "n_rows": 30,
+    "rows": [
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.348894267231,
+        "leave_one_donor_out_min_mean": 1.588669741803,
+        "mean_difference": 1.916932906751,
+        "median_difference": 2.357902398727,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "IL2RA",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.888888888889,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.288279920963,
+        "leave_one_donor_out_min_mean": 1.012788692449,
+        "mean_difference": 1.129287714112,
+        "median_difference": 1.257046587969,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "TNFRSF9",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.186733830158,
+        "leave_one_donor_out_min_mean": 1.801110341926,
+        "mean_difference": 1.973813564658,
+        "median_difference": 2.061022206862,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "TNFRSF4",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.860614938729,
+        "leave_one_donor_out_min_mean": 1.156891075436,
+        "mean_difference": 1.528590505123,
+        "median_difference": 1.139379153276,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "ICOS",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.6,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.164077583651,
+        "leave_one_donor_out_min_mean": 0.505530762919,
+        "mean_difference": 0.895427130549,
+        "median_difference": 0.575754724976,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "PDCD1",
+        "wilcoxon_p_one_sided": 0.15625
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.437765053497,
+        "leave_one_donor_out_min_mean": 1.07658571861,
+        "mean_difference": 1.280657799093,
+        "median_difference": 1.051757657521,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "CTLA4",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.888888888889,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.589193640033,
+        "leave_one_donor_out_min_mean": 2.023870373138,
+        "mean_difference": 2.301505457807,
+        "median_difference": 2.293645910473,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "CD274",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "NK_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 3.68445077321,
+        "leave_one_donor_out_min_mean": 2.358848224306,
+        "mean_difference": 2.96689938954,
+        "median_difference": 3.586897936994,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "LAG3",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "NK_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.619026589861,
+        "leave_one_donor_out_min_mean": 1.932764637792,
+        "mean_difference": 2.245849365045,
+        "median_difference": 2.807868193207,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "HAVCR2",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.915645930292,
+        "leave_one_donor_out_min_mean": 0.743278662617,
+        "mean_difference": 0.829306009598,
+        "median_difference": 0.865762968081,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "TIGIT",
+        "wilcoxon_p_one_sided": 0.001953125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.163080349731,
+        "leave_one_donor_out_min_mean": 0.89615627122,
+        "mean_difference": 1.079080919236,
+        "median_difference": 0.941401367509,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "CD38",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "NK_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": -0.927662497314,
+        "leave_one_donor_out_min_mean": -1.250437452796,
+        "mean_difference": -1.119126992946,
+        "median_difference": -1.097987741813,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "CD69",
+        "wilcoxon_p_one_sided": 1.0
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.787531379316,
+        "leave_one_donor_out_min_mean": 1.493462832721,
+        "mean_difference": 1.672084613342,
+        "median_difference": 1.466141850315,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "TNFRSF18",
+        "wilcoxon_p_one_sided": 0.001953125
+      },
+      {
+        "cell_type": "Endothelial",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.708541243338,
+        "leave_one_donor_out_min_mean": 0.594644740032,
+        "mean_difference": 0.646392024024,
+        "median_difference": 0.667017792265,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "ENTPD1",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.888888888889,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.828370116583,
+        "leave_one_donor_out_min_mean": 0.638709276984,
+        "mean_difference": 0.73344136973,
+        "median_difference": 0.648451290741,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "MICA",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "Epithelial",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.205425592035,
+        "leave_one_donor_out_min_mean": 1.634441326953,
+        "mean_difference": 1.958346825228,
+        "median_difference": 1.492171607087,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "HLA-DRA",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.331215911898,
+        "leave_one_donor_out_min_mean": 1.040888339107,
+        "mean_difference": 1.216750445254,
+        "median_difference": 1.284213525699,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "ICAM1",
+        "wilcoxon_p_one_sided": 0.001953125
+      },
+      {
+        "cell_type": "Endothelial",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.666666666667,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 3.158483728222,
+        "leave_one_donor_out_min_mean": 1.953391219058,
+        "mean_difference": 2.431658458825,
+        "median_difference": 2.553058293436,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "VCAM1",
+        "wilcoxon_p_one_sided": 0.0546875
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.6,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.216220820945,
+        "leave_one_donor_out_min_mean": -0.043925141358,
+        "mean_difference": 0.115636853593,
+        "median_difference": 0.065746027723,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "SIGLEC1",
+        "wilcoxon_p_one_sided": 0.3125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 3.239437502888,
+        "leave_one_donor_out_min_mean": 2.56881517035,
+        "mean_difference": 2.852016822652,
+        "median_difference": 2.656441605751,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "IDO1",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "Stromal",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.666666666667,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 4.261526808424,
+        "leave_one_donor_out_min_mean": 2.840587717856,
+        "mean_difference": 3.430199498833,
+        "median_difference": 2.8253473925,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "FAP",
+        "wilcoxon_p_one_sided": 0.0390625
+      },
+      {
+        "cell_type": "Endothelial",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.666666666667,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.273729672641,
+        "leave_one_donor_out_min_mean": 0.968037333194,
+        "mean_difference": 1.627414028658,
+        "median_difference": 1.911583174197,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "TNFRSF12A",
+        "wilcoxon_p_one_sided": 0.1015625
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.555555555556,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 0.312058216351,
+        "leave_one_donor_out_min_mean": 0.049890937042,
+        "mean_difference": 0.173332415491,
+        "median_difference": 0.087399444075,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "CD19",
+        "wilcoxon_p_one_sided": 0.248046875
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.666666666667,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 0.285938311904,
+        "leave_one_donor_out_min_mean": 0.115862633697,
+        "mean_difference": 0.204788054343,
+        "median_difference": 0.267941894591,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "MS4A1",
+        "wilcoxon_p_one_sided": 0.1015625
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.8,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 4.105472955318,
+        "leave_one_donor_out_min_mean": 2.505023436896,
+        "mean_difference": 3.284378364255,
+        "median_difference": 4.08128603567,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "CD79A",
+        "wilcoxon_p_one_sided": 0.0625
+      },
+      {
+        "cell_type": "Plasma_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.4,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 0.702217373047,
+        "leave_one_donor_out_min_mean": 0.334809761847,
+        "mean_difference": 0.561773898437,
+        "median_difference": 0.0,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "TNFRSF17",
+        "wilcoxon_p_one_sided": 0.25
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.8,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 0.328731626022,
+        "leave_one_donor_out_min_mean": 0.209994323443,
+        "mean_difference": 0.245976276144,
+        "median_difference": 0.306182550824,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "CD3E",
+        "wilcoxon_p_one_sided": 0.0625
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 2.132138939376,
+        "leave_one_donor_out_min_mean": 1.230346057199,
+        "mean_difference": 1.754867124613,
+        "median_difference": 1.654849113337,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "CD4",
+        "wilcoxon_p_one_sided": 0.03125
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.222222222222,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.690957025122,
+        "leave_one_donor_out_min_mean": -0.929926366889,
+        "mean_difference": -0.783477752378,
+        "median_difference": -0.950884530392,
+        "n_pairs": 9,
+        "study": "GSE134809",
+        "target": "CD8A",
+        "wilcoxon_p_one_sided": 0.990234375
+      },
+      {
+        "cell_type": "Epithelial",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.6,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": 0.254792070375,
+        "leave_one_donor_out_min_mean": 0.081369926256,
+        "mean_difference": 0.158405725824,
+        "median_difference": 0.150149933447,
+        "n_pairs": 5,
+        "study": "GSE228421",
+        "target": "ERBB2",
+        "wilcoxon_p_one_sided": 0.21875
+      }
+    ]
+  },
+  "footprint_summary": {
+    "maximum_expansion": 3,
+    "rows": [
+      {
+        "target": "CD19",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "CD274",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "CD38",
+        "tissue_footprint_activated": 4,
+        "tissue_footprint_expansion": 1,
+        "tissue_footprint_resting": 3
+      },
+      {
+        "target": "CD3E",
+        "tissue_footprint_activated": 3,
+        "tissue_footprint_expansion": -1,
+        "tissue_footprint_resting": 4
+      },
+      {
+        "target": "CD4",
+        "tissue_footprint_activated": 4,
+        "tissue_footprint_expansion": 3,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "CD69",
+        "tissue_footprint_activated": 8,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 8
+      },
+      {
+        "target": "CD70",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "CD79A",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 2
+      },
+      {
+        "target": "CD8A",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 2
+      },
+      {
+        "target": "CLDN18",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "CLDN6",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "CTLA4",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "DLL3",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "ENTPD1",
+        "tissue_footprint_activated": 5,
+        "tissue_footprint_expansion": 2,
+        "tissue_footprint_resting": 3
+      },
+      {
+        "target": "ERBB2",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "FAP",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 1,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "FOLR1",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "GPRC5D",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "HAVCR2",
+        "tissue_footprint_activated": 4,
+        "tissue_footprint_expansion": 3,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "HLA-DRA",
+        "tissue_footprint_activated": 9,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 9
+      },
+      {
+        "target": "ICAM1",
+        "tissue_footprint_activated": 6,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 6
+      },
+      {
+        "target": "ICOS",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 2
+      },
+      {
+        "target": "IDO1",
+        "tissue_footprint_activated": 3,
+        "tissue_footprint_expansion": 3,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "IL2RA",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 1,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "LAG3",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "MICA",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": -1,
+        "tissue_footprint_resting": 2
+      },
+      {
+        "target": "MICB",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "MS4A1",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "PDCD1",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "PDCD1LG2",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "SIGLEC1",
+        "tissue_footprint_activated": 0,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 0
+      },
+      {
+        "target": "TIGIT",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 2
+      },
+      {
+        "target": "TNFRSF12A",
+        "tissue_footprint_activated": 3,
+        "tissue_footprint_expansion": -2,
+        "tissue_footprint_resting": 5
+      },
+      {
+        "target": "TNFRSF17",
+        "tissue_footprint_activated": 1,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 1
+      },
+      {
+        "target": "TNFRSF18",
+        "tissue_footprint_activated": 6,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 6
+      },
+      {
+        "target": "TNFRSF4",
+        "tissue_footprint_activated": 5,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 5
+      },
+      {
+        "target": "TNFRSF9",
+        "tissue_footprint_activated": 4,
+        "tissue_footprint_expansion": 1,
+        "tissue_footprint_resting": 3
+      },
+      {
+        "target": "VCAM1",
+        "tissue_footprint_activated": 2,
+        "tissue_footprint_expansion": 0,
+        "tissue_footprint_resting": 2
+      }
+    ],
+    "targets_with_positive_expansion": 8
+  },
+  "method_version": "tissue-v1",
+  "negative_binomial_sensitivity": {
+    "both_estimators_positive_fraction": 0.568588469185,
+    "direction_agreement": 0.916500994036,
+    "fit_accounting": {
+      "attempted": 572,
+      "converged": 572,
+      "perfect_separation_warnings": 69
+    },
+    "n_valid": 503,
+    "spearman_effect_correlation": 0.85645225592,
+    "status": "COMPUTED"
+  },
+  "pre_registration": {
+    "annotation_qc_repair": "The initial skin marker-only QC showed keratinocytes misclassified as plasma through SDC1/XBP1. Those markers were replaced by multi-marker plasma gates and KRT1/KRT10 before the final tissue benchmark was generated. No benchmark target or control label was used in that repair.",
+    "config": "config/tissue_extension.yaml",
+    "crohn_pairing_source": "effiken/martin_et_al_cell_2019 input/tables/sample_index.csv at commit d1ff0f9099a9017552d7b9b8d582bcc5a9314ae2",
+    "status": "FROZEN_AFTER_MARKER_ONLY_ANNOTATION_QC_REPAIR"
+  },
+  "protein_corroboration": {
+    "reason": "Both tissue cohorts provide RNA counts only.",
+    "status": "UNAVAILABLE_FOR_TISSUE_TARGETS"
+  },
+  "schema_version": 1,
+  "status": "COMPUTED_REAL_PAIRED_TISSUE_EXTENSION",
+  "threshold_sensitivity": [
+    {
+      "metrics": {
+        "auroc": 0.847222222222,
+        "average_precision": 0.905604834526,
+        "mann_whitney_p_one_sided": 0.007610037022,
+        "n": 17,
+        "n_negative": 8,
+        "n_positive": 9,
+        "status": "COMPUTED",
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD4",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "GPRC5D",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "IL2RA",
+          "MS4A1",
+          "PDCD1LG2",
+          "TNFRSF17",
+          "TNFRSF4",
+          "TNFRSF9"
+        ]
+      },
+      "observability_fraction_cutoff": 0.01,
+      "observable_tier1": 17
+    },
+    {
+      "metrics": {
+        "auroc": 0.821428571429,
+        "average_precision": 0.887351190476,
+        "mann_whitney_p_one_sided": 0.020046620047,
+        "n": 15,
+        "n_negative": 7,
+        "n_positive": 8,
+        "status": "COMPUTED",
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD4",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "IL2RA",
+          "MS4A1",
+          "TNFRSF17",
+          "TNFRSF4",
+          "TNFRSF9"
+        ]
+      },
+      "observability_fraction_cutoff": 0.05,
+      "observable_tier1": 15
+    },
+    {
+      "metrics": {
+        "auroc": 0.821428571429,
+        "average_precision": 0.887351190476,
+        "mann_whitney_p_one_sided": 0.020046620047,
+        "n": 15,
+        "n_negative": 7,
+        "n_positive": 8,
+        "status": "COMPUTED",
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD4",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "IL2RA",
+          "MS4A1",
+          "TNFRSF17",
+          "TNFRSF4",
+          "TNFRSF9"
+        ]
+      },
+      "observability_fraction_cutoff": 0.1,
+      "observable_tier1": 15
+    }
+  ],
+  "tissue_benchmark": {
+    "per_study": {
+      "GSE134809": {
+        "observable_tier1": 15,
+        "tier1_metrics": {
+          "auroc": 0.839285714286,
+          "average_precision": 0.913888888889,
+          "mann_whitney_p_one_sided": 0.014452214452,
+          "n": 15,
+          "n_negative": 7,
+          "n_positive": 8,
+          "status": "COMPUTED",
+          "targets": [
+            "CD19",
+            "CD274",
+            "CD3E",
+            "CD4",
+            "CD69",
+            "CD79A",
+            "CD8A",
+            "HLA-DRA",
+            "ICAM1",
+            "IDO1",
+            "IL2RA",
+            "MS4A1",
+            "TNFRSF17",
+            "TNFRSF4",
+            "TNFRSF9"
+          ]
+        }
+      },
+      "GSE228421": {
+        "observable_tier1": 12,
+        "tier1_metrics": {
+          "auroc": 0.75,
+          "average_precision": 0.902976190476,
+          "mann_whitney_p_one_sided": 0.107070707071,
+          "n": 12,
+          "n_negative": 4,
+          "n_positive": 8,
+          "status": "COMPUTED",
+          "targets": [
+            "CD274",
+            "CD3E",
+            "CD4",
+            "CD69",
+            "CD8A",
+            "HLA-DRA",
+            "ICAM1",
+            "IDO1",
+            "IL2RA",
+            "TNFRSF17",
+            "TNFRSF4",
+            "TNFRSF9"
+          ]
+        }
+      }
+    },
+    "target_scores": [
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.916932906751,
+        "driver_standard_error": 0.554097575595,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.317043431285,
+        "score": 0.830901658583,
+        "target": "IL2RA",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.129287714112,
+        "driver_standard_error": 0.236850228591,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.257732360519,
+        "score": 0.665061266073,
+        "target": "TNFRSF9",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.973813564658,
+        "driver_standard_error": 0.247870318116,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.347855060316,
+        "score": 1.487987741151,
+        "target": "TNFRSF4",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.528590505123,
+        "driver_standard_error": 0.486535670164,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.410626963336,
+        "score": 0.574980591602,
+        "target": "ICOS",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 0.895427130549,
+        "driver_standard_error": 0.506690492777,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.081355529575,
+        "score": -0.097686235294,
+        "target": "PDCD1",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.280657799093,
+        "driver_standard_error": 0.263974980145,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.292818636472,
+        "score": 0.763266838008,
+        "target": "CTLA4",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell",
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 2.301505457807,
+        "driver_standard_error": 0.50289603913,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Myeloid",
+          "B_cell",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.169584875438,
+        "score": 1.315829221113,
+        "target": "CD274",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 2.221378606696,
+        "driver_standard_error": 0.5420992327,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Myeloid",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": false,
+        "observable_fraction_max": 0.035781403156,
+        "score": null,
+        "target": "PDCD1LG2",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "NK_cell",
+        "driver_effect": 2.96689938954,
+        "driver_standard_error": 1.065084050119,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.150157615976,
+        "score": 0.879334651307,
+        "target": "LAG3",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Myeloid",
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "NK_cell",
+        "driver_effect": 2.245849365045,
+        "driver_standard_error": 0.545669252438,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell",
+          "Myeloid"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.250352783926,
+        "score": 1.176337630268,
+        "target": "HAVCR2",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 0.829306009598,
+        "driver_standard_error": 0.158864601644,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.305832875415,
+        "score": 0.517931390376,
+        "target": "TIGIT",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell",
+          "Myeloid",
+          "NK_cell",
+          "Plasma_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 1.079080919236,
+        "driver_standard_error": 0.197726073649,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell",
+          "B_cell",
+          "Myeloid",
+          "NK_cell",
+          "Plasma_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.248670838395,
+        "score": 0.691537814884,
+        "target": "CD38",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "NK_cell",
+        "driver_effect": -1.119126992946,
+        "driver_standard_error": 0.2873302538,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.874113347116,
+        "score": -1.682294290394,
+        "target": "CD69",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.672084613342,
+        "driver_standard_error": 0.27547864443,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.633332955314,
+        "score": 1.13214647026,
+        "target": "TNFRSF18",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "NK_cell",
+          "T_cell"
+        ],
+        "driver_cell_type": "Endothelial",
+        "driver_effect": 0.646392024024,
+        "driver_standard_error": 0.07713573225,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell",
+          "Endothelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.47148834623,
+        "score": 0.495205988815,
+        "target": "ENTPD1",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "B_cell",
+          "Myeloid",
+          "T_cell"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 2.149907485583,
+        "driver_standard_error": 0.551353856676,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell",
+          "B_cell",
+          "Myeloid"
+        ],
+        "label": "positive",
+        "observable": false,
+        "observable_fraction_max": 0.04850361416,
+        "score": null,
+        "target": "CD70",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 0.73344136973,
+        "driver_standard_error": 0.156396797302,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Myeloid",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.107412503524,
+        "score": 0.426903647018,
+        "target": "MICA",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal"
+        ],
+        "driver_cell_type": "Stromal",
+        "driver_effect": 0.511750479317,
+        "driver_standard_error": 0.07954325831,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Myeloid",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": false,
+        "observable_fraction_max": 0.048552876908,
+        "score": null,
+        "target": "MICB",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell",
+          "Endothelial",
+          "Epithelial",
+          "Myeloid"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": 1.958346825228,
+        "driver_standard_error": 0.444053903129,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Myeloid",
+          "B_cell",
+          "Endothelial",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.985286606268,
+        "score": 1.088001175096,
+        "target": "HLA-DRA",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal",
+          "T_cell"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 1.216750445254,
+        "driver_standard_error": 0.242476484771,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Myeloid",
+          "T_cell",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.684420961013,
+        "score": 0.741496535103,
+        "target": "ICAM1",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "Stromal"
+        ],
+        "driver_cell_type": "Endothelial",
+        "driver_effect": 2.431658458825,
+        "driver_standard_error": 1.19645044599,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Endothelial",
+          "Stromal"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.367526707477,
+        "score": 0.086615584685,
+        "target": "VCAM1",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Myeloid"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 0.115636853593,
+        "driver_standard_error": 0.194865856843,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.082107050246,
+        "score": -0.266300225819,
+        "target": "SIGLEC1",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Myeloid",
+          "Stromal"
+        ],
+        "driver_cell_type": "Myeloid",
+        "driver_effect": 2.852016822652,
+        "driver_standard_error": 0.493502992545,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Myeloid",
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.268106138624,
+        "score": 1.884750957264,
+        "target": "IDO1",
+        "tier": 1,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Stromal"
+        ],
+        "driver_cell_type": "Stromal",
+        "driver_effect": 3.430199498833,
+        "driver_standard_error": 1.336716481192,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Stromal"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.21186517371,
+        "score": 0.810235195697,
+        "target": "FAP",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Endothelial",
+          "Epithelial",
+          "Stromal"
+        ],
+        "driver_cell_type": "Endothelial",
+        "driver_effect": 1.627414028658,
+        "driver_standard_error": 1.067422970303,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "Endothelial",
+          "Stromal",
+          "Epithelial"
+        ],
+        "label": "positive",
+        "observable": true,
+        "observable_fraction_max": 0.251484791022,
+        "score": -0.464734993137,
+        "target": "TNFRSF12A",
+        "tier": 2,
+        "y_true": 1
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell"
+        ],
+        "driver_cell_type": "B_cell",
+        "driver_effect": 0.173332415491,
+        "driver_standard_error": 0.22367038194,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "B_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.146126113446,
+        "score": -0.26506153311,
+        "target": "CD19",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell"
+        ],
+        "driver_cell_type": "B_cell",
+        "driver_effect": 0.204788054343,
+        "driver_standard_error": 0.125478793615,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "B_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.63559795434,
+        "score": -0.041150381142,
+        "target": "MS4A1",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "B_cell"
+        ],
+        "driver_cell_type": "B_cell",
+        "driver_effect": 3.284378364255,
+        "driver_standard_error": 1.147650428146,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "B_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.690456338875,
+        "score": 1.034983525088,
+        "target": "CD79A",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Plasma_cell"
+        ],
+        "driver_cell_type": "Plasma_cell",
+        "driver_effect": 0.561773898437,
+        "driver_standard_error": 0.344632072325,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.434389860062,
+        "score": -0.11370496332,
+        "target": "TNFRSF17",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Plasma_cell"
+        ],
+        "driver_cell_type": "Plasma_cell",
+        "driver_effect": 0.0,
+        "driver_standard_error": 1e-08,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "observable": false,
+        "observable_fraction_max": 0.019197823847,
+        "score": null,
+        "target": "GPRC5D",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Epithelial"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": -0.047156311045,
+        "driver_standard_error": 0.024876741167,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "observable": false,
+        "observable_fraction_max": 0.000519376175,
+        "score": null,
+        "target": "CLDN18",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Epithelial"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": 0.023155848802,
+        "driver_standard_error": 0.010888720475,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "observable": false,
+        "observable_fraction_max": 0.000650977332,
+        "score": null,
+        "target": "CLDN6",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Epithelial"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": 0.13339480404,
+        "driver_standard_error": 0.053200670875,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "observable": false,
+        "observable_fraction_max": 0.001777856021,
+        "score": null,
+        "target": "DLL3",
+        "tier": 2,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 0.245976276144,
+        "driver_standard_error": 0.084604858046,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.570985725941,
+        "score": 0.080150754373,
+        "target": "CD3E",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": 1.754867124613,
+        "driver_standard_error": 0.625651197001,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.188379791863,
+        "score": 0.528590778491,
+        "target": "CD4",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "T_cell"
+        ],
+        "driver_cell_type": "T_cell",
+        "driver_effect": -0.783477752378,
+        "driver_standard_error": 0.227863178644,
+        "driver_stimulus": "tissue_inflammation_crohns",
+        "driver_study": "GSE134809",
+        "driver_total_pairs": 9,
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.164624336153,
+        "score": -1.230089582521,
+        "target": "CD8A",
+        "tier": 1,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": null,
+        "covered_lineages": [
+          "Epithelial"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": 0.158405725824,
+        "driver_standard_error": 0.134517600009,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "observable": true,
+        "observable_fraction_max": 0.164519834069,
+        "score": -0.105248770193,
+        "target": "ERBB2",
+        "tier": 2,
+        "y_true": 0
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "covered_lineages": [
+          "Epithelial"
+        ],
+        "driver_cell_type": "Epithelial",
+        "driver_effect": -0.136287477338,
+        "driver_standard_error": 0.091923948689,
+        "driver_stimulus": "tissue_inflammation_psoriasis",
+        "driver_study": "GSE228421",
+        "driver_total_pairs": 5,
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "observable": false,
+        "observable_fraction_max": 0.002077006034,
+        "score": null,
+        "target": "FOLR1",
+        "tier": 2,
+        "y_true": 0
+      }
+    ],
+    "tier1_metrics": {
+      "auroc": 0.821428571429,
+      "average_precision": 0.887351190476,
+      "mann_whitney_p_one_sided": 0.020046620047,
+      "n": 15,
+      "n_negative": 7,
+      "n_positive": 8,
+      "status": "COMPUTED",
+      "targets": [
+        "CD19",
+        "CD274",
+        "CD3E",
+        "CD4",
+        "CD69",
+        "CD79A",
+        "CD8A",
+        "HLA-DRA",
+        "ICAM1",
+        "IDO1",
+        "IL2RA",
+        "MS4A1",
+        "TNFRSF17",
+        "TNFRSF4",
+        "TNFRSF9"
+      ]
+    },
+    "tier1_tier2_metrics": {
+      "auroc": 0.761363636364,
+      "average_precision": 0.904125811472,
+      "mann_whitney_p_one_sided": 0.015385298804,
+      "n": 30,
+      "n_negative": 8,
+      "n_positive": 22,
+      "status": "COMPUTED",
+      "targets": [
+        "CD19",
+        "CD274",
+        "CD38",
+        "CD3E",
+        "CD4",
+        "CD69",
+        "CD79A",
+        "CD8A",
+        "CTLA4",
+        "ENTPD1",
+        "ERBB2",
+        "FAP",
+        "HAVCR2",
+        "HLA-DRA",
+        "ICAM1",
+        "ICOS",
+        "IDO1",
+        "IL2RA",
+        "LAG3",
+        "MICA",
+        "MS4A1",
+        "PDCD1",
+        "SIGLEC1",
+        "TIGIT",
+        "TNFRSF12A",
+        "TNFRSF17",
+        "TNFRSF18",
+        "TNFRSF4",
+        "TNFRSF9",
+        "VCAM1"
+      ]
+    }
+  }
+}

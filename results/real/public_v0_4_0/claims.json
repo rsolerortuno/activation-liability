@@ -1,0 +1,71 @@
+{
+  "conditional_claims": [
+    {
+      "claim": "Matched surface-protein induction corroborates RNA induction.",
+      "condition": "Only for target-cell-stimulus rows labelled CONCORDANT.",
+      "targets": [
+        "CCR2",
+        "FCER1A",
+        "FCGR1A",
+        "TNFSF18"
+      ]
+    },
+    {
+      "claim": "There is sufficient evidence for an activation-liability call.",
+      "condition": "Means evidence class A, B or C; it does not mean clinical toxicity.",
+      "targets": [
+        "CD19",
+        "CD274",
+        "CD38",
+        "CD3E",
+        "CD4",
+        "CD69",
+        "CD70",
+        "CD8A",
+        "CTLA4",
+        "DLL3",
+        "HAVCR2",
+        "HLA-DRA",
+        "ICAM1",
+        "ICOS",
+        "IDO1",
+        "IL2RA",
+        "LAG3",
+        "MICA",
+        "MICB",
+        "PDCD1",
+        "PDCD1LG2",
+        "SIGLEC1",
+        "TIGIT",
+        "TNFRSF12A",
+        "TNFRSF18",
+        "TNFRSF4",
+        "TNFRSF9",
+        "TNFSF18"
+      ]
+    }
+  ],
+  "coverage": {
+    "abstention_rate": 0.37777777777777777,
+    "protein_corroborated_targets": 4,
+    "targets": 45
+  },
+  "permitted_claims": [
+    {
+      "claim": "Within-study paired RNA inducibility was estimated for covered target-cell-stimulus combinations.",
+      "condition": "Valid only for the studies, donors, cell types and stimuli recorded in audit.json."
+    },
+    {
+      "claim": "Activation expanded or contracted the detected normal-cell footprint for evaluated targets.",
+      "condition": "Depends on the stated detection and positive-fraction thresholds."
+    }
+  ],
+  "schema_version": 1,
+  "unsupported_claims": [
+    "The tool predicts clinical toxicity.",
+    "The tool establishes a therapeutic window.",
+    "A non-induced target is safe.",
+    "RNA induction proves accessible surface protein.",
+    "Synthetic benchmark performance is real-data validation."
+  ]
+}

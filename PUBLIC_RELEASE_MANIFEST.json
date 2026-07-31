@@ -1,5 +1,5 @@
 {
-  "file_count_excluding_manifest": 145,
+  "file_count_excluding_manifest": 147,
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -58,13 +58,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "32ec81cf533f386dc34c29d7b7a4f48caddc3ebd7069f3a0db06e05cb2d75142",
-      "size_bytes": 23351
+      "sha256": "4dcd57f7008d4201cd500038d3bcaf04eff0c8a26050e6a5ad0375f5c608c026",
+      "size_bytes": 24509
     },
     {
       "path": "README_ES.md",
-      "sha256": "0401e1f5d65f886efd675baa7c6b374b42321a3ed68aede33b9553cbceeffd5a",
-      "size_bytes": 2896
+      "sha256": "fa00cb3aae88d4b66a342f79d5ec8536fb32d6e85446d4ac244438113dcbe6a4",
+      "size_bytes": 3295
     },
     {
       "path": "SECURITY.md",
@@ -182,9 +182,19 @@
       "size_bytes": 774
     },
     {
+      "path": "docs/PUBLISH_TO_GITHUB.md",
+      "sha256": "f3b435d2eb5cd57969646b14efa8d310f66b72f90b581080b782354d64db01c0",
+      "size_bytes": 771
+    },
+    {
       "path": "docs/REAL_DATA_PLAN.md",
       "sha256": "33ef1ceebc8a6e733ea7d8fc1a5143aabb2fa82026366f582d123dea1eff6480",
       "size_bytes": 4651
+    },
+    {
+      "path": "docs/REPOSITORY_STRUCTURE.md",
+      "sha256": "e5f55e509a0b87f9d76f007436f1ef04b2d9da72bf40d9dd18a502381740fa20",
+      "size_bytes": 3016
     },
     {
       "path": "docs/RUNBOOK.md",
@@ -198,8 +208,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "5e6de3d2ba1d13a8cd8d70d02d76323e4138ed6febffb6080bc6de91f325f197",
-      "size_bytes": 3603
+      "sha256": "a03d47feef3fe395a999798faa1bb6c2d2f32504ba86b2cbd7c756715b425932",
+      "size_bytes": 3801
     },
     {
       "path": "docs/assets/benchmark_overview.png",
@@ -243,7 +253,7 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "3e2762a254550602ed199e96af005a70eeaf4298e89f208642a31fe50e75de46",
+      "sha256": "a08c8d3ce310b2bb5dcce3c74b38307adf9a07c2fa3affe3e6769d9aacd6817c",
       "size_bytes": 3177
     },
     {
@@ -726,10 +736,5 @@
       "sha256": "f28547e8225604fef2a6e84e5a64c70b422bbd9408bda5990fc78dc854971bda",
       "size_bytes": 9005
     }
-  ],
-  "gse190564_status": "NEXT_PHASE_NOT_ANALYSED",
-  "package_type": "public_repository_bundle",
-  "project": "activation-liability",
-  "schema_version": 1,
-  "software_version": "0.5.0"
+  ]
 }

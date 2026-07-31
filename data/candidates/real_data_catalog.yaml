@@ -1,0 +1,222 @@
+schema_version: 1
+status: CANDIDATE_DOWNLOAD_CATALOG
+purpose: Public datasets prioritized for the first real-data validation. Entries are
+  not enabled registry manifests until downloaded files have checksums, donor pairing
+  has been verified from metadata, reuse terms have been reviewed, and conversion
+  tests pass.
+datasets:
+- accession: GSE157857
+  priority: 1
+  role: primary_discovery_and_protein_corroboration
+  modality: RNA+ADT
+  stimulus_axes:
+  - IFN_I
+  donors_reported: 3
+  pairing: donor_paired_via_HTO
+  tissue: PBMC_enriched_CD1c_DC_and_monocytes
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157857
+  publication_pmid: '33188059'
+  download_group: small
+  drive_folder: 01_DISCOVERY_PRIMARY_RNA_ADT/GSE157857_IFNB_CITEseq_PRIMARY
+  files:
+  - filename: GSE157857_RAW.tar
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157857/suppl/GSE157857_RAW.tar
+    approximate_size_mb: 26.2
+  - filename: GSE157857_ADT_HTO_barcode_sequences.xlsx
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157857/suppl/GSE157857_ADT_HTO_barcode_sequences.xlsx
+    approximate_size_mb: 0.011
+  blockers_before_default:
+  - verify_cell_level_HTO_to_donor_mapping
+  - verify_ADT_feature_names_and_isotypes
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE178429
+  priority: 1
+  role: independent_multi_stimulus_validation
+  modality: RNA
+  stimulus_axes:
+  - IFN_II
+  - TLR
+  - lymphocyte_activation
+  donors_reported: 4
+  pairing: explicit_donor_and_time_matched_controls
+  tissue: PBMC
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178429
+  publication_pmid: '36204155'
+  download_group: small
+  drive_folder: 02_VALIDATION_IFN_TNF_TLR/GSE178429_MULTI_STIMULUS_scRNAseq
+  files:
+  - filename: GSE178429_PBMCs_stim_scRNAseq_cellMeta.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE178nnn/GSE178429/suppl/GSE178429_PBMCs_stim_scRNAseq_cellMeta.txt.gz
+    approximate_size_mb: 0.302
+  - filename: GSE178429_PBMCs_stim_scRNAseq_counts.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE178nnn/GSE178429/suppl/GSE178429_PBMCs_stim_scRNAseq_counts.txt.gz
+    approximate_size_mb: 73.2
+  - filename: GSE178429_PBMCs_stim_scRNAseq_geneNames.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE178nnn/GSE178429/suppl/GSE178429_PBMCs_stim_scRNAseq_geneNames.txt.gz
+    approximate_size_mb: 0.066
+  blockers_before_default:
+  - verify_metadata_columns_and_cell_types
+  - exclude_GolgiPlug_from_primary_contrast_or_model_separately
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE96583
+  priority: 2
+  role: independent_IFN_I_replication
+  modality: RNA
+  stimulus_axes:
+  - IFN_I
+  donors_reported: 8
+  pairing: donor_identity_requires_demuxlet_metadata
+  tissue: PBMC
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96583
+  publication_pmid: '29227470'
+  download_group: small
+  drive_folder: 02_VALIDATION_IFN_TNF_TLR/GSE96583_IFNB_demuxlet_scRNAseq
+  files:
+  - filename: GSE96583_RAW.tar
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE96nnn/GSE96583/suppl/GSE96583_RAW.tar
+    approximate_size_mb: 72.7
+  - filename: GSE96583_batch2.genes.tsv.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE96nnn/GSE96583/suppl/GSE96583_batch2.genes.tsv.gz
+    approximate_size_mb: 0.271
+  - filename: GSE96583_batch2.total.tsne.df.tsv.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE96nnn/GSE96583/suppl/GSE96583_batch2.total.tsne.df.tsv.gz
+    approximate_size_mb: 0.739
+  execution_status: executed_as_frozen_external_confirmation
+  resolved_checks:
+  - authoritative_gene_order_present_and_sha256_recorded
+  - donor_and_singlet_assignment_verified_for_eight_donors
+  - batch2_control_and_IFN_beta_6h_only
+  - duplicated_barcode_serialization_resolved_condition_specifically
+  - SLE_disease_context_documented
+  residual_caveats:
+  - SLE_patient_context_not_healthy_donors
+  - no_matched_surface_protein
+  - preassigned_positive_holdout_targets_abstain_at_frozen_5_percent_threshold
+  - review_reuse_terms
+- accession: GSE140244
+  priority: 2
+  role: high_power_T_cell_activation_timecourse
+  modality: sorted_bulk
+  stimulus_axes:
+  - lymphocyte_activation
+  donors_reported: 24
+  pairing: within_donor_timecourse_from_zero_hours
+  tissue: sorted_CD4_memory_T_cells
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140244
+  publication_pmid: '32066938'
+  download_group: small
+  drive_folder: 04_SORTED_BULK_TIMECOURSES/GSE140244_CD4_ACTIVATION_TIMECOURSE
+  files:
+  - filename: GSE140244_rnaseq_gene_counts.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140244/suppl/GSE140244_rnaseq_gene_counts.txt.gz
+    approximate_size_mb: 7.4
+  - filename: GSE140244_rnaseq_gene_normalized.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140244/suppl/GSE140244_rnaseq_gene_normalized.txt.gz
+    approximate_size_mb: 37.1
+  - filename: GSE140244_rnaseq_meta_data.txt.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140244/suppl/GSE140244_rnaseq_meta_data.txt.gz
+    approximate_size_mb: 0.005
+  controlled_access_raw: dbGaP_phs002259
+  blockers_before_default:
+  - define_pre_registered_time_contrasts
+  - account_for_two_replicated_donors
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE156473
+  priority: 3
+  role: exploratory_activation_RNA_ADT
+  modality: RNA+ADT
+  stimulus_axes:
+  - lymphocyte_activation
+  donors_reported: 0
+  pairing: NOT_YET_VERIFIED
+  tissue: PBMC
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156473
+  publication_pmid: NOT_YET_VERIFIED
+  download_group: large
+  drive_folder: 01_DISCOVERY_PRIMARY_RNA_ADT/GSE156473_CD3CD28_CITEseq_EXPLORATORY
+  files:
+  - filename: GSE156473_RAW.tar
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156473/suppl/GSE156473_RAW.tar
+    approximate_size_mb: 2100
+  blockers_before_default:
+  - donor_replication_not_demonstrated
+  - keep_out_of_inferential_primary_analysis
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE228421
+  priority: 3
+  role: paired_psoriasis_tissue_generalization
+  modality: RNA
+  stimulus_axes:
+  - tissue_damage
+  - TNF
+  - IFN_II
+  donors_reported: 5
+  pairing: within_patient_lesional_vs_nonlesional
+  tissue: skin
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE228421
+  publication_pmid: NOT_YET_VERIFIED
+  download_group: large
+  drive_folder: 03_TISSUE_INFLAMMATION/GSE228421_PSORIASIS_PAIRED_SKIN
+  files:
+  - filename: GSE228421_RAW.tar
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE228nnn/GSE228421/suppl/GSE228421_RAW.tar
+    approximate_size_mb: 2500
+  blockers_before_default:
+  - separate_baseline_pair_from_treatment_longitudinal_samples
+  - verify_cell_annotation_and_patient_identifiers
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE134809
+  priority: 3
+  role: paired_Crohn_ileum_tissue_generalization
+  modality: RNA
+  stimulus_axes:
+  - tissue_damage
+  - TNF
+  - IFN_II
+  donors_reported: 0
+  pairing: paired_inflamed_vs_uninflamed_requires_metadata_verification
+  tissue: ileum
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134809
+  publication_pmid: NOT_YET_VERIFIED
+  download_group: inspect_source_first
+  drive_folder: 03_TISSUE_INFLAMMATION/GSE134809_CROHNS_PAIRED_ILEUM
+  files: []
+  blockers_before_default:
+  - exact_processed_file_mapping_not_yet_verified
+  - verify_patient_pairing_and_cell_annotations
+  - record_file_sha256
+  - review_reuse_terms
+- accession: GSE190564
+  priority: 1
+  role: paired_tissue_surface_protein_validation_next_phase
+  modality: RNA+ADT
+  stimulus_axes:
+  - tissue_inflammation
+  - ulcerative_colitis
+  donors_reported: 0
+  pairing: UC_inflamed_vs_noninflamed_within_patient_requires_pool_demultiplexing
+  tissue: colon_epithelium_and_stromal_immune_plus_PBMC
+  source_record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190564
+  publication_pmid: '38744246'
+  download_group: very_large_explicit
+  drive_folder: 06_TISSUE_PROTEIN_VALIDATION/GSE190564_UC_PAIRED_CITESEQ
+  files:
+  - filename: GSE190564_processed_data.tar.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190564/suppl/GSE190564_processed_data.tar.gz
+    approximate_size_mb: 11100
+  - filename: GSE190564_family.soft.gz
+    url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190564/soft/GSE190564_family.soft.gz
+    approximate_size_mb: 0.1
+  execution_status: NOT_DOWNLOADED_NOT_ANALYSED
+  blockers_before_default:
+  - verify_patient_condition_hashtag_mapping
+  - verify_GEX_ADT_barcode_alignment
+  - inventory_antibody_panel_and_isotypes
+  - freeze_paired_UC_I_vs_UC_NI_endpoints_before_target_inspection
+  - record_file_sha256
+  - review_reuse_terms

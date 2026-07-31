@@ -1,0 +1,70 @@
+{
+  "code_version": "0.4.0",
+  "excluded_inputs": [],
+  "inputs": [
+    {
+      "accession": "GSE157857",
+      "file_name": "GSE157857_RAW.tar",
+      "role": "primary RNA/ADT/HTO source",
+      "sha256": "3624e856be94085dc8a2de167e00de134f010117802457a852b3a1c503b1962e",
+      "size_bytes": 27504640
+    },
+    {
+      "accession": "GSE178429",
+      "file_name": "GSE178429_PBMCs_stim_scRNAseq_cellMeta.txt.gz",
+      "role": "cell metadata",
+      "sha256": "8a4c5c044cbeaf2bc6a4cc525c4f0d6976fb8593338458d85970ad53d5ebe3d3",
+      "size_bytes": 309065
+    },
+    {
+      "accession": "GSE178429",
+      "file_name": "GSE178429_PBMCs_stim_scRNAseq_counts.txt.gz",
+      "role": "count matrix",
+      "sha256": "12aff48afbf462822e90cccd34b52f8d9db95d74f3359ae872589c37e762a64d",
+      "size_bytes": 76802254
+    },
+    {
+      "accession": "GSE178429",
+      "file_name": "GSE178429_PBMCs_stim_scRNAseq_geneNames.txt.gz",
+      "role": "gene names",
+      "sha256": "1fc50123deea7c06b87b8f8e27b9bdefc5d816ef767f7b1168ef663f1a73cc09",
+      "size_bytes": 67006
+    },
+    {
+      "accession": "GSE96583",
+      "file_name": "GSE96583_RAW.tar",
+      "role": "control and IFN-beta 6 h matrices",
+      "sha256": "e5d41a3248a813f99d68fd5c9eb9773de7f46a83680a67f4a02d683b8955fe80",
+      "size_bytes": 76195840
+    },
+    {
+      "accession": "GSE96583",
+      "file_name": "GSE96583_batch2.genes.tsv.gz",
+      "role": "authoritative matrix row order",
+      "sha256": "93aa4e9b530ef9d6411ca129b416324c5cc1cc5a01a1fa6ed4f4a845480ed3ca",
+      "size_bytes": 277054
+    },
+    {
+      "accession": "GSE96583",
+      "file_name": "GSE96583_batch2.total.tsne.df.tsv.gz",
+      "role": "demuxlet donor and singlet metadata",
+      "sha256": "1d57e72e92ca8695250e88cc0f1c3fa8c0be1175d974f8b427c58f1274dc6c09",
+      "size_bytes": 756342
+    },
+    {
+      "accession": "GSE140244",
+      "file_name": "GSE140244_rnaseq_gene_counts.txt.gz",
+      "role": "bulk RNA-seq counts",
+      "sha256": "42b08f3fa46dc26a66f04cfe63453b7e50015e1244448936c6d84cbd7d0a1ae4",
+      "size_bytes": 7746156
+    },
+    {
+      "accession": "GSE140244",
+      "file_name": "GSE140244_rnaseq_meta_data.txt.gz",
+      "role": "bulk RNA-seq metadata",
+      "sha256": "1ad1ef1b8cd86c6124700b0d3f82202096c5c9dfd1f285da41da6429d0685ff7",
+      "size_bytes": 4665
+    }
+  ],
+  "schema_version": 1
+}

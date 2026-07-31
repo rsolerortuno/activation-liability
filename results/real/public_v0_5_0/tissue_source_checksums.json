@@ -1,0 +1,128 @@
+{
+  "GSE134809_RAW.tar": {
+    "sha256": "2f55271ec3cdb37f9680588b2cbd8d491536694af7a585062f075ad7aa437a6c",
+    "size": 607467520
+  },
+  "GSE228421_baseline_members": [
+    {
+      "name": "GSM7120449_P1_V1_L.features.tsv.gz",
+      "sha256": "69d556913a9d755c8004d370f007063f84132cb2985e5e1e4f471e691eaa6679",
+      "size": 294488
+    },
+    {
+      "name": "GSM7120449_P1_V1_L.matrix.mtx.gz",
+      "sha256": "ca5a6abc115908ef828c0ff3e1c6146c7861017142777e3515aa6cda8b12d67f",
+      "size": 145672586
+    },
+    {
+      "name": "GSM7120450_P1_V1_NL.features.tsv.gz",
+      "sha256": "69d556913a9d755c8004d370f007063f84132cb2985e5e1e4f471e691eaa6679",
+      "size": 294488
+    },
+    {
+      "name": "GSM7120450_P1_V1_NL.matrix.mtx.gz",
+      "sha256": "7136a23277e99067a71067a4ab1aa2041d98bb74fb58e0acbb103b80ea7fb157",
+      "size": 80353929
+    },
+    {
+      "name": "GSM7120453_P2_V1_L.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120453_P2_V1_L.matrix.mtx.gz",
+      "sha256": "9c511d85862c035885c41b21ca971017cb490921f196c74453576b67796db4f7",
+      "size": 122355473
+    },
+    {
+      "name": "GSM7120454_P2_V1_NL.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120454_P2_V1_NL.matrix.mtx.gz",
+      "sha256": "f476232f5ff3dbe4e4bb2ced8d68e09d0a5df91c1f5753d3c47a398ecd5b2588",
+      "size": 122392702
+    },
+    {
+      "name": "GSM7120457_P3_V1_L.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120457_P3_V1_L.matrix.mtx.gz",
+      "sha256": "99c33d82c96546643ecc9179185d14ff392f4a355d3908ee35c6580be8fde01f",
+      "size": 81033521
+    },
+    {
+      "name": "GSM7120458_P3_V1_NL.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120458_P3_V1_NL.matrix.mtx.gz",
+      "sha256": "c747977781b19fc5a4ae1debf39bb124f19f5ae750791ff5c8d5c0d89a26d211",
+      "size": 73053268
+    },
+    {
+      "name": "GSM7120461_P4_V1_L.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120461_P4_V1_L.matrix.mtx.gz",
+      "sha256": "064118249fe4a12ee3d5f81d7c3630cda9053b0ce0c1ef7f56dec34c35997f2a",
+      "size": 159067586
+    },
+    {
+      "name": "GSM7120462_P4_V1_NL.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120462_P4_V1_NL.matrix.mtx.gz",
+      "sha256": "3bb36d18c4eef4c9aebf731a80e36ddb2c9ddbecd79caac0f1f667571612582b",
+      "size": 120729604
+    },
+    {
+      "name": "GSM7120465_P5_V1_L.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120465_P5_V1_L.matrix.mtx.gz",
+      "sha256": "a09096b30a4225cf8db4313573d7b5992439e3175a2a0e70fc953dc8f51a6041",
+      "size": 146685346
+    },
+    {
+      "name": "GSM7120466_P5_V1_NL.features.tsv.gz",
+      "sha256": "b002e49db205e104d7514b173de2136052f717f2682f90c7d938bba6f2cce34f",
+      "size": 294580
+    },
+    {
+      "name": "GSM7120466_P5_V1_NL.matrix.mtx.gz",
+      "sha256": "66e9ed0fc754ee56a364284e2a75110973e0af52e9daeb38fc2b4628be2f1ed6",
+      "size": 103866107
+    }
+  ],
+  "analysis_inputs": [
+    {
+      "name": "controls.yaml",
+      "role": "externally curated benchmark controls",
+      "sha256": "5de5a0b2c1a20a50df652451ed9203886c70c20936f9ee14ae7fbcd62546f65e",
+      "size": 7865
+    },
+    {
+      "name": "tissue_extension.yaml",
+      "role": "frozen tissue analysis configuration",
+      "sha256": "88ed710ceaf06b8c4006b78c297278c80662c728f80e7e31dc09bc488962f841",
+      "size": 3123
+    },
+    {
+      "name": "benchmark.json",
+      "role": "v0.4 coverage reference only",
+      "sha256": "cab00e20c284c8c8ac3c72e6bd7d4fe8af6e59e430ac0cb3e3521c1922b45b35",
+      "size": 82409
+    }
+  ]
+}

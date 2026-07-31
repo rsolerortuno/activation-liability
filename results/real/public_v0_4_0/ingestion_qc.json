@@ -1,0 +1,220 @@
+{
+  "cohorts": [
+    {
+      "accession": "GSE157857",
+      "conditions": {
+        "activated": {
+          "broad_annotation_counts": {
+            "B_cell": 23,
+            "Myeloid": 4792,
+            "NK_cell": 4,
+            "Platelet": 17,
+            "T_cell": 1,
+            "Unknown": 163
+          },
+          "donor_counts": {
+            "HTO1": 948,
+            "HTO2": 1099,
+            "HTO3": 505
+          },
+          "median_annotation_margin_primary": 1.8487587504720064,
+          "median_hto_ratio_primary": 139.14583333333331,
+          "median_top_hto_count_primary": 2084.5,
+          "n_filtered_matrix_cells": 5000,
+          "n_hto_singlets": 2773,
+          "n_primary_myeloid_cells": 2552
+        },
+        "resting": {
+          "broad_annotation_counts": {
+            "B_cell": 17,
+            "Myeloid": 4686,
+            "NK_cell": 9,
+            "Platelet": 16,
+            "T_cell": 2,
+            "Unknown": 270
+          },
+          "donor_counts": {
+            "HTO1": 977,
+            "HTO2": 794,
+            "HTO3": 606
+          },
+          "median_annotation_margin_primary": 2.312853817000106,
+          "median_hto_ratio_primary": 184.6,
+          "median_top_hto_count_primary": 1090.0,
+          "n_filtered_matrix_cells": 5000,
+          "n_hto_singlets": 2709,
+          "n_primary_myeloid_cells": 2377
+        }
+      },
+      "primary_population": "broad Myeloid only",
+      "protein_targets": [
+        "CCR2",
+        "CD1C",
+        "FCER1A",
+        "FCGR1A",
+        "MRC1",
+        "TNFSF18",
+        "TNFSF9"
+      ],
+      "stimulus": "IFN-beta, 18 h"
+    },
+    {
+      "accession": "GSE178429",
+      "annotation_leakage_control": {
+        "median_margins": {
+          "CD3E": 0.9878163083567143,
+          "CD79A": 0.8571451219458547,
+          "MS4A1": 0.8547370712863658
+        },
+        "method": "leave-target-out marker modules",
+        "targets": [
+          "CD3E",
+          "CD79A",
+          "MS4A1"
+        ]
+      },
+      "broad_annotation_counts_all_cells": {
+        "B_cell": 2895,
+        "Myeloid": 3468,
+        "NK_cell": 3904,
+        "Platelet": 56,
+        "T_cell": 10039,
+        "Unknown": 3392
+      },
+      "contrasts": {
+        "GSE178429_IFN_1h": {
+          "active_label": "IFN_1h",
+          "cell_type_counts": {
+            "B_cell": 527,
+            "Myeloid": 975,
+            "NK_cell": 764,
+            "T_cell": 1894
+          },
+          "control_label": "Control_1h",
+          "n_cells": 4160,
+          "n_complete_donor_celltype_pairs": 12
+        },
+        "GSE178429_IFN_6h": {
+          "active_label": "IFN_6h",
+          "cell_type_counts": {
+            "B_cell": 389,
+            "Myeloid": 639,
+            "NK_cell": 440,
+            "T_cell": 1410
+          },
+          "control_label": "Control_6h",
+          "n_cells": 2878,
+          "n_complete_donor_celltype_pairs": 12
+        },
+        "GSE178429_LPS_1h": {
+          "active_label": "LPS_1h",
+          "cell_type_counts": {
+            "B_cell": 659,
+            "Myeloid": 958,
+            "NK_cell": 942,
+            "T_cell": 2355
+          },
+          "control_label": "Control_1h",
+          "n_cells": 4914,
+          "n_complete_donor_celltype_pairs": 16
+        },
+        "GSE178429_LPS_6h": {
+          "active_label": "LPS_6h",
+          "cell_type_counts": {
+            "B_cell": 760,
+            "Myeloid": 573,
+            "NK_cell": 828,
+            "T_cell": 2232
+          },
+          "control_label": "Control_6h",
+          "n_cells": 4393,
+          "n_complete_donor_celltype_pairs": 16
+        }
+      },
+      "excluded_primary_conditions": [
+        "ControlGolgiPlug_6h",
+        "IFNGolgiPlug_6h",
+        "LPSGolgiPlug_6h",
+        "PMAGolgiPlug_6h",
+        "PMA_1h",
+        "PMA_6h"
+      ],
+      "included_stimuli": [
+        "IFN-gamma",
+        "LPS"
+      ],
+      "median_annotation_margin_primary": 0.8826100447875729
+    },
+    {
+      "accession": "GSE140244",
+      "baseline": "0 h",
+      "cell_type": "sorted CD4 memory T cells",
+      "contrasts": {
+        "GSE140244_12h": {
+          "n_complete_donors": 19,
+          "n_libraries": 42,
+          "replicate_counts": {
+            "A": 38,
+            "B": 4
+          },
+          "time_point_hours": 12
+        },
+        "GSE140244_24h": {
+          "n_complete_donors": 24,
+          "n_libraries": 52,
+          "replicate_counts": {
+            "A": 48,
+            "B": 4
+          },
+          "time_point_hours": 24
+        },
+        "GSE140244_2h": {
+          "n_complete_donors": 23,
+          "n_libraries": 50,
+          "replicate_counts": {
+            "A": 46,
+            "B": 4
+          },
+          "time_point_hours": 2
+        },
+        "GSE140244_48h": {
+          "n_complete_donors": 22,
+          "n_libraries": 48,
+          "replicate_counts": {
+            "A": 44,
+            "B": 4
+          },
+          "time_point_hours": 48
+        },
+        "GSE140244_4h": {
+          "n_complete_donors": 24,
+          "n_libraries": 52,
+          "replicate_counts": {
+            "A": 48,
+            "B": 4
+          },
+          "time_point_hours": 4
+        },
+        "GSE140244_72h": {
+          "n_complete_donors": 24,
+          "n_libraries": 52,
+          "replicate_counts": {
+            "A": 48,
+            "B": 4
+          },
+          "time_point_hours": 72
+        },
+        "GSE140244_8h": {
+          "n_complete_donors": 24,
+          "n_libraries": 52,
+          "replicate_counts": {
+            "A": 48,
+            "B": 4
+          },
+          "time_point_hours": 8
+        }
+      },
+      "mapping_source": "GSE157857 deposited GRCh38 feature table"
+    }
+  ]
+}

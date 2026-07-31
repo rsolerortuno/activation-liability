@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activation-liability"
+version = "0.5.0"
+description = "Audits activation-induced erosion of apparent tumour selectivity for surface targets."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+authors = [{name = "Rafael Soler Ortuño"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "pydantic>=2.6",
+  "PyYAML>=6.0",
+  "typer>=0.12",
+  "scikit-learn>=1.4",
+  "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.6", "mypy>=1.11", "types-PyYAML>=6.0"]
+
+[project.scripts]
+alia = "activation_liability.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/activation_liability/cli.py" = ["B008"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["activation_liability"]
+
+[[tool.mypy.overrides]]
+module = ["pandas", "pandas.*", "scipy", "scipy.*", "yaml", "sklearn", "sklearn.*", "statsmodels", "statsmodels.*"]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["activation_liability"]
+omit = [
+  "src/activation_liability/cli.py",
+  "src/activation_liability/fetch.py",
+  "src/activation_liability/real_data.py",
+  "src/activation_liability/real_pipeline.py",
+  "src/activation_liability/tissue_pipeline.py",
+  "src/activation_liability/__main__.py",
+]
+
+[tool.coverage.report]
+fail_under = 85
+show_missing = true

@@ -1,0 +1,15 @@
+{
+  "conditional": [
+    "Target-level tissue inducibility claims require the named cohort, broad lineage, paired-donor coverage and confidence interval reported in tissue_audit_rows.csv."
+  ],
+  "permitted": [
+    "The analysed paired cohorts contain normal-cell lineages whose RNA footprint expands during tissue inflammation.",
+    "The tissue extension increases biological lineage coverage relative to the PBMC-only benchmark."
+  ],
+  "unsupported": [
+    "Clinical toxicity prediction",
+    "Surface-protein induction for tissue targets",
+    "Delivery, exposure or therapeutic-index prediction",
+    "Epithelial conclusions from GSE134809"
+  ]
+}

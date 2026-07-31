@@ -1,0 +1,19 @@
+accession: DICE
+source_repository: DICE
+publication_doi: 10.1016/j.cell.2018.10.022
+tissue: peripheral_blood
+disease_context: healthy
+stimulus_axis: other
+platform: sorted_bulk_RNA_seq
+modality: sorted_bulk
+donor_count: 0
+condition_labels:
+  resting: NOT_VERIFIED
+  activated: NOT_VERIFIED
+licence: NOT_VERIFIED
+verified: false
+default: false
+downloads: []
+notes: >-
+  Candidate source only. The flagship DICE publication and database exist, but a paired activated versus
+  resting subset suitable for this tool has not been verified. Excluded from defaults.

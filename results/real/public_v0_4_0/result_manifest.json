@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "file_name": "audit.json",
+      "sha256": "5455f31003ceffb9db14805a1bf650fd8e272586ef4e7b5a01731be7180a7aaa",
+      "size_bytes": 686242
+    },
+    {
+      "file_name": "audit_rows.csv",
+      "sha256": "e29b180cc5d07af5d6295ef42441f0518d91b5f090627e682e6cf48ac2c0141d",
+      "size_bytes": 183555
+    },
+    {
+      "file_name": "benchmark.json",
+      "sha256": "cab00e20c284c8c8ac3c72e6bd7d4fe8af6e59e430ac0cb3e3521c1922b45b35",
+      "size_bytes": 82409
+    },
+    {
+      "file_name": "claims.json",
+      "sha256": "6773d333c9e2be514fe44883cd3d2c028b98d4af0fb5c7564961737248f911b0",
+      "size_bytes": 1891
+    },
+    {
+      "file_name": "donor_robustness.csv",
+      "sha256": "d67497ee53962bca1a545170f2646e28ae2483de90486f0cf0c7ceb5adf41ea2",
+      "size_bytes": 4267
+    },
+    {
+      "file_name": "execution_summary.json",
+      "sha256": "f27523744f164c961611d54b24df8bad01db810697c1be87f93476b7fdc7b17c",
+      "size_bytes": 6479
+    },
+    {
+      "file_name": "gse96583_confirmation_audit.json",
+      "sha256": "26e3332be12d77b157bcfede9ceb5cb7ea7aaa4e362e2fff891589db32773237",
+      "size_bytes": 148494
+    },
+    {
+      "file_name": "gse96583_confirmation_audit_rows.csv",
+      "sha256": "13c481098cb9a3221be53cfcb477b5b1ddf5cd5973bf6aaa1e8f09a8c844a779",
+      "size_bytes": 34915
+    },
+    {
+      "file_name": "gse96583_confirmation_benchmark.json",
+      "sha256": "c543eb150ee6a2ad160a635cd106a1a44b4753f8a27d0f413c794ef15f1a59ea",
+      "size_bytes": 66908
+    },
+    {
+      "file_name": "gse96583_confirmation_cells.csv.gz",
+      "sha256": "af2364c43b6f4f379e562a91ab410f5c4ed5167bcf0a876ab91521bb472ca6d0",
+      "size_bytes": 3718124
+    },
+    {
+      "file_name": "gse96583_confirmation_claims.json",
+      "sha256": "9b9b7fa9ab80491a850d777c5f8578b308765c18f10c4b290f062fcb39a5145b",
+      "size_bytes": 1467
+    },
+    {
+      "file_name": "gse96583_confirmation_donor_robustness.csv",
+      "sha256": "1ee9cc79bf9cfc0e7d5a32850181b7b13ed6afeb1d40284f5c818b8547d17498",
+      "size_bytes": 2688
+    },
+    {
+      "file_name": "gse96583_confirmation_ingestion_qc.json",
+      "sha256": "a71fd222f29d2c798a06ff588287df79aea9adfaf2b92482f4e84ed7b94fae9c",
+      "size_bytes": 2384
+    },
+    {
+      "file_name": "gse96583_confirmation_target_scores.csv",
+      "sha256": "f103b0b3c5963b2baffbdeef9e30c64deb4ba059d12cd9ff6ba4795b8c5cf009",
+      "size_bytes": 6923
+    },
+    {
+      "file_name": "gse96583_confirmation_target_summary.csv",
+      "sha256": "6847e16e10734bbd3dc9a5991f8d48ef5e1fd139d79efa9001d5dcaf74ff3d69",
+      "size_bytes": 9421
+    },
+    {
+      "file_name": "ingestion_qc.json",
+      "sha256": "245bc5b5ac3f1fe68ba6ae533eeeae9ea5404192bf48edd76a76ccd9b4a106d1",
+      "size_bytes": 5716
+    },
+    {
+      "file_name": "real_cells.csv.gz",
+      "sha256": "58b2825fa5865c91a83142f9a19db7e011a4240895b5c3adb44ae385fa1fc60f",
+      "size_bytes": 3789050
+    },
+    {
+      "file_name": "report.html",
+      "sha256": "74d9352e400443eb3ef0b62215ca9cf5bbfba665505a599dce2d501bf3e5d9a1",
+      "size_bytes": 6582
+    },
+    {
+      "file_name": "source_checksums.json",
+      "sha256": "a7352f9551737e2e3f94599091ad29f72463d3836e06e0cf73eb5329403b12ab",
+      "size_bytes": 2368
+    },
+    {
+      "file_name": "target_scores.csv",
+      "sha256": "801dcf007e4dc06dc64d7125f02b6efbd7708893f1057b6f4d04588960a155ee",
+      "size_bytes": 5959
+    },
+    {
+      "file_name": "target_summary.csv",
+      "sha256": "754192773f727246347ef0a84f47634af53f529b93df848a20e349ff77f704f2",
+      "size_bytes": 9695
+    },
+    {
+      "file_name": "timecourse_validation.csv",
+      "sha256": "77619acef06ccbbef645c49256b3ffe11c15e9221ce1ba2c9ef0d21d8320e874",
+      "size_bytes": 2182
+    },
+    {
+      "file_name": "unconstrained_diagnostic.json",
+      "sha256": "f73ce6abae9663e6ad0ba6cf921070dfe0d00f4b436e666630d50fc80412f51b",
+      "size_bytes": 25252
+    }
+  ],
+  "schema_version": 1,
+  "software_version": "0.4.0"
+}

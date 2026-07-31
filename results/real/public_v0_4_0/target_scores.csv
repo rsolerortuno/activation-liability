@@ -1,0 +1,39 @@
+target,label,tier,y_true,expected_lineages,covered_lineages,observable_fraction_max,observable,abstention_reason,score,driver_stimulus,driver_cell_type,driver_effect,driver_standard_error,driver_total_pairs,driver_positive_fraction_resting,driver_positive_fraction_activated
+CD38,positive,2,1,"['T_cell', 'B_cell', 'Myeloid', 'NK_cell']","['B_cell', 'Myeloid', 'NK_cell', 'T_cell']",1.0,True,,6.782514188792,IFN_I_18h,Myeloid,7.204322132737,0.215208134666,3.0,0.005469078671,0.522335423197
+TNFRSF9,positive,1,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",1.0,True,,4.964454383576,lymphocyte_activation_24h,T_cell,5.152387195046,0.095884087484,24.0,1.0,1.0
+IL2RA,positive,1,1,['T_cell'],['T_cell'],1.0,True,,4.887894141971,lymphocyte_activation_24h,T_cell,5.071163287222,0.093504665944,24.0,1.0,1.0
+SIGLEC1,positive,2,1,['Myeloid'],['Myeloid'],0.480407523511,True,,4.850880119251,IFN_I_18h,Myeloid,5.355345910197,0.257380505585,3.0,0.015986537653,0.480407523511
+IDO1,positive,1,1,['Myeloid'],['Myeloid'],0.916927899687,True,,4.701493647453,IFN_II_6h,Myeloid,8.725113495824,2.052867269577,3.0,0.059748427673,0.894080996885
+CTLA4,positive,2,1,['T_cell'],['T_cell'],1.0,True,,4.141398447141,lymphocyte_activation_24h,T_cell,4.244463967303,0.052584449062,24.0,1.0,1.0
+TNFRSF4,positive,1,1,['T_cell'],['T_cell'],1.0,True,,3.687345181782,lymphocyte_activation_24h,T_cell,3.999308214871,0.159164812801,24.0,1.0,1.0
+LAG3,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",1.0,True,,3.293437837036,lymphocyte_activation_24h,T_cell,3.45163160848,0.08071110788,24.0,1.0,1.0
+PDCD1,positive,2,1,['T_cell'],['T_cell'],1.0,True,,3.215445633539,lymphocyte_activation_24h,T_cell,3.417938568798,0.103312722071,24.0,1.0,1.0
+CD274,positive,1,1,"['Myeloid', 'B_cell']","['B_cell', 'Myeloid']",0.576323987539,True,,2.87037260455,IFN_I_18h,Myeloid,3.035159668542,0.084075032649,3.0,0.061842658814,0.362068965517
+ICOS,positive,2,1,['T_cell'],['T_cell'],1.0,True,,2.792429330188,lymphocyte_activation_24h,T_cell,2.865727513498,0.037397032301,24.0,1.0,1.0
+TNFRSF18,positive,2,1,['T_cell'],['T_cell'],1.0,True,,2.775973561674,lymphocyte_activation_24h,T_cell,3.005474170783,0.117092147505,24.0,1.0,1.0
+ICAM1,positive,1,1,"['Myeloid', 'B_cell', 'T_cell']","['B_cell', 'Myeloid', 'T_cell']",1.0,True,,2.500947074806,lymphocyte_activation_24h,T_cell,2.737186077017,0.120530103169,24.0,1.0,1.0
+PDCD1LG2,positive,1,1,['Myeloid'],['Myeloid'],0.108542319749,True,,1.645436352549,IFN_I_18h,Myeloid,2.423904551531,0.397177652542,3.0,0.026924694994,0.108542319749
+MICB,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",1.0,True,,1.42659465991,IFN_I_18h,Myeloid,1.818357555434,0.199879028329,3.0,0.039124947413,0.12578369906
+CD70,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",1.0,True,,1.389185706947,lymphocyte_activation_24h,T_cell,1.535974334705,0.07489215702,24.0,1.0,1.0
+CD69,positive,1,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",1.0,True,,1.252007750814,lymphocyte_activation_24h,T_cell,1.406286224283,0.078713506872,24.0,1.0,1.0
+HLA-DRA,positive,1,1,"['Myeloid', 'B_cell']","['B_cell', 'Myeloid']",0.987379049222,True,,1.206768783925,IFN_II_6h,B_cell,1.494805628051,0.146957573534,3.0,0.520634920635,0.837837837838
+HAVCR2,positive,2,1,"['T_cell', 'NK_cell', 'Myeloid']","['Myeloid', 'NK_cell', 'T_cell']",1.0,True,,1.0545064851,lymphocyte_activation_24h,T_cell,1.311147633615,0.130939361488,24.0,1.0,1.0
+MICA,positive,2,1,"['T_cell', 'B_cell', 'Myeloid']","['B_cell', 'Myeloid', 'T_cell']",1.0,True,,0.350983813113,IFN_I_18h,Myeloid,0.615084198607,0.13474509464,3.0,0.029869583509,0.042711598746
+CD8A,negative,1,0,['T_cell'],['T_cell'],1.0,True,,0.050437140375,IFN_II_6h,T_cell,0.541165361873,0.25037154158,3.0,0.202866593164,0.290258449304
+TIGIT,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",1.0,True,,-0.197996615468,IFN_II_6h,T_cell,0.229296324074,0.218006601807,3.0,0.073869900772,0.127236580517
+CD3E,negative,1,0,['T_cell'],['T_cell'],1.0,True,,-0.30884028449,lymphocyte_activation_24h,T_cell,-0.255835272718,0.027043373353,24.0,1.0,1.0
+TNFRSF12A,positive,2,1,"['T_cell', 'Myeloid']","['Myeloid', 'T_cell']",1.0,True,,-0.316011187269,IFN_II_6h,T_cell,-0.150372217403,0.084509678503,3.0,0.013230429989,0.037773359841
+CD4,negative,1,0,['T_cell'],['T_cell'],1.0,True,,-0.376116267508,lymphocyte_activation_24h,T_cell,-0.299601599359,0.039038095995,24.0,1.0,1.0
+MS4A1,negative,1,0,['B_cell'],['B_cell'],0.72602739726,True,,-1.052648829548,IFN_II_6h,B_cell,-0.181366834972,0.444531629886,3.0,0.467289719626,0.72602739726
+CD79A,negative,1,0,['B_cell'],['B_cell'],0.644736842105,True,,-1.125888679509,IFN_II_6h,B_cell,-0.26867235882,0.437355265658,3.0,0.374622356495,0.644736842105
+CD19,negative,1,0,['B_cell'],['B_cell'],0.418918918919,True,,-1.889804259173,IFN_II_6h,B_cell,-0.403995956778,0.758065460405,3.0,0.2,0.418918918919
+ENTPD1,positive,2,1,"['T_cell', 'NK_cell']","['NK_cell', 'T_cell']",1.0,True,,-1.988183864572,lymphocyte_activation_24h,T_cell,-1.804030606858,0.093955743732,24.0,1.0,1.0
+VCAM1,positive,2,1,['Myeloid'],['Myeloid'],0.007053291536,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_18h,Myeloid,0.974435582495,0.373151314192,3.0,0.002944888515,0.007053291536
+FAP,positive,2,1,['Myeloid'],['Myeloid'],0.002351097179,False,TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD,,IFN_I_18h,Myeloid,0.528517006572,0.174985431275,3.0,0.000420698359,0.002351097179
+TNFRSF17,negative,1,0,['Plasma_cell'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+GPRC5D,negative,1,0,['Plasma_cell'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+CLDN18,negative,1,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+CLDN6,negative,1,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+DLL3,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+ERBB2,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,
+FOLR1,negative,2,0,['Epithelial'],[],,False,LINEAGE_NOT_COVERED,,,,,,,,

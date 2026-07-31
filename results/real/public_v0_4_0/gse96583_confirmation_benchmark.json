@@ -1,0 +1,2215 @@
+{
+  "agreement_with_v0_3": {
+    "frozen_cutoff_call_agreement": 0.722222222222,
+    "n_common_observable_targets": 18,
+    "rows": [
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "Myeloid",
+        "driver_stimulus_v0_3": "IFN_I_18h",
+        "label": "positive",
+        "score_gse96583": 5.41673084943,
+        "score_v0_3": 6.782514188792,
+        "target": "CD38",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "Myeloid",
+        "driver_stimulus_v0_3": "IFN_I_18h",
+        "label": "positive",
+        "score_gse96583": 3.612295547503,
+        "score_v0_3": 4.850880119251,
+        "target": "SIGLEC1",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "Myeloid",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "positive",
+        "score_gse96583": 3.797827633039,
+        "score_v0_3": 4.701493647453,
+        "target": "IDO1",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": -0.025841253097,
+        "score_v0_3": 3.687345181782,
+        "target": "TNFRSF4",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "NK_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": 4.120542873713,
+        "score_v0_3": 3.293437837036,
+        "target": "LAG3",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "Myeloid",
+        "driver_stimulus_v0_3": "IFN_I_18h",
+        "label": "positive",
+        "score_gse96583": 2.772270123564,
+        "score_v0_3": 2.87037260455,
+        "target": "CD274",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": 0.413646913695,
+        "score_v0_3": 2.792429330188,
+        "target": "ICOS",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "B_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": -0.563802878811,
+        "score_v0_3": 2.500947074806,
+        "target": "ICAM1",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "B_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": -0.527791375094,
+        "score_v0_3": 1.389185706947,
+        "target": "CD70",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": 1.310637412539,
+        "score_v0_3": 1.252007750814,
+        "target": "CD69",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "B_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "positive",
+        "score_gse96583": -0.474500038623,
+        "score_v0_3": 1.206768783925,
+        "target": "HLA-DRA",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "Myeloid",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "positive",
+        "score_gse96583": 1.196955018125,
+        "score_v0_3": 1.0545064851,
+        "target": "HAVCR2",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "negative",
+        "score_gse96583": -0.820160179098,
+        "score_v0_3": 0.050437140375,
+        "target": "CD8A",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "positive",
+        "score_gse96583": -0.3122381805,
+        "score_v0_3": -0.197996615468,
+        "target": "TIGIT",
+        "tier": 2
+      },
+      {
+        "driver_cell_type_gse96583": "T_cell",
+        "driver_cell_type_v0_3": "T_cell",
+        "driver_stimulus_v0_3": "lymphocyte_activation_24h",
+        "label": "negative",
+        "score_gse96583": -0.822303859549,
+        "score_v0_3": -0.30884028449,
+        "target": "CD3E",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "B_cell",
+        "driver_cell_type_v0_3": "B_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "negative",
+        "score_gse96583": -0.998577324596,
+        "score_v0_3": -1.052648829548,
+        "target": "MS4A1",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "B_cell",
+        "driver_cell_type_v0_3": "B_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "negative",
+        "score_gse96583": -1.073409054049,
+        "score_v0_3": -1.125888679509,
+        "target": "CD79A",
+        "tier": 1
+      },
+      {
+        "driver_cell_type_gse96583": "B_cell",
+        "driver_cell_type_v0_3": "B_cell",
+        "driver_stimulus_v0_3": "IFN_II_6h",
+        "label": "negative",
+        "score_gse96583": -0.650817385711,
+        "score_v0_3": -1.889804259173,
+        "target": "CD19",
+        "tier": 1
+      }
+    ],
+    "spearman_p_value": 1.2271367e-05,
+    "spearman_score_correlation": 0.841073271414
+  },
+  "claims": {
+    "conditional": [
+      "The confirmation applies to observable PBMC lineages in SLE patient samples after 6 h IFN-beta stimulation.",
+      "Perfect ranking separation does not imply that the frozen target holdout was confirmed because its positive targets abstained."
+    ],
+    "permitted": [
+      "GSE96583 independently ranks the observable tier-1 controls under the unchanged v0.3 rules.",
+      "Eight donor-resolved within-study IFN-beta contrasts were analysed."
+    ],
+    "unsupported": [
+      "The complete target holdout is externally confirmed.",
+      "The result generalises to healthy donors or tissue-resident lineages.",
+      "The cohort provides protein-level corroboration.",
+      "The tool predicts clinical toxicity."
+    ]
+  },
+  "coverage": {
+    "abstained_targets": [
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "target": "IL2RA",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "target": "TNFRSF9",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "target": "PDCD1",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "target": "CTLA4",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "PDCD1LG2",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "positive",
+        "target": "TNFRSF18",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell",
+          "NK_cell"
+        ],
+        "label": "positive",
+        "target": "ENTPD1",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell",
+          "B_cell",
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "MICA",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell",
+          "B_cell",
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "MICB",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "VCAM1",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "FAP",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell",
+          "Myeloid"
+        ],
+        "label": "positive",
+        "target": "TNFRSF12A",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "target": "TNFRSF17",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Plasma_cell"
+        ],
+        "label": "negative",
+        "target": "GPRC5D",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "CLDN18",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "CLDN6",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "DLL3",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+        "expected_lineages": [
+          "T_cell"
+        ],
+        "label": "negative",
+        "target": "CD4",
+        "tier": 1
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "ERBB2",
+        "tier": 2
+      },
+      {
+        "abstention_reason": "LINEAGE_NOT_COVERED",
+        "expected_lineages": [
+          "Epithelial"
+        ],
+        "label": "negative",
+        "target": "FOLR1",
+        "tier": 2
+      }
+    ],
+    "all_controls": 38,
+    "observable_controls": 18,
+    "observable_tier1_controls": 11,
+    "tier1_controls": 19
+  },
+  "donor_robustness": {
+    "definition": "One-sided paired Wilcoxon and leave-one-donor-out means for each target's GSE96583 driver lineage.",
+    "rows": [
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.75,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.210229301742,
+        "leave_one_donor_out_min_mean": 0.113449809543,
+        "mean_log2_cpm_difference": 0.153230180544,
+        "median_log2_cpm_difference": 0.247509736445,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "TNFRSF4",
+        "wilcoxon_p_one_sided": 0.0546875
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.243397858155,
+        "leave_one_donor_out_min_mean": 0.79983934147,
+        "mean_log2_cpm_difference": 1.089734193024,
+        "median_log2_cpm_difference": 1.034313124939,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "ICOS",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 3.665037853775,
+        "leave_one_donor_out_min_mean": 3.253886432438,
+        "mean_log2_cpm_difference": 3.481178092095,
+        "median_log2_cpm_difference": 3.459193692498,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD274",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "NK_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 5.698194136878,
+        "leave_one_donor_out_min_mean": 5.006035397284,
+        "mean_log2_cpm_difference": 5.413948072435,
+        "median_log2_cpm_difference": 5.076366679129,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "LAG3",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.376428823428,
+        "leave_one_donor_out_min_mean": 1.292806962799,
+        "mean_log2_cpm_difference": 1.336713087747,
+        "median_log2_cpm_difference": 1.333994462099,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "HAVCR2",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.625,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.016431347605,
+        "leave_one_donor_out_min_mean": -0.12554690822,
+        "mean_log2_cpm_difference": -0.07785337136,
+        "median_log2_cpm_difference": 0.018487544931,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "TIGIT",
+        "wilcoxon_p_one_sided": 0.62890625
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 6.250535971809,
+        "leave_one_donor_out_min_mean": 5.822662589965,
+        "mean_log2_cpm_difference": 6.108459809591,
+        "median_log2_cpm_difference": 5.997595275635,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD38",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 1.605890486394,
+        "leave_one_donor_out_min_mean": 1.465276593243,
+        "mean_log2_cpm_difference": 1.527308783411,
+        "median_log2_cpm_difference": 1.573798498303,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD69",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.625,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 0.476327893158,
+        "leave_one_donor_out_min_mean": -0.003160401481,
+        "mean_log2_cpm_difference": 0.257430656863,
+        "median_log2_cpm_difference": 0.040402466308,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD70",
+        "wilcoxon_p_one_sided": 0.3203125
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": -0.333367581761,
+        "leave_one_donor_out_min_mean": -0.397475421649,
+        "mean_log2_cpm_difference": -0.371105334517,
+        "median_log2_cpm_difference": -0.36371267283,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "HLA-DRA",
+        "wilcoxon_p_one_sided": 1.0
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 0.625,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 2.255929048572,
+        "leave_one_donor_out_min_mean": 0.977552532367,
+        "mean_log2_cpm_difference": 1.460715792698,
+        "median_log2_cpm_difference": 1.548339628364,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "ICAM1",
+        "wilcoxon_p_one_sided": 0.109375
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 4.583836281997,
+        "leave_one_donor_out_min_mean": 4.152363187133,
+        "mean_log2_cpm_difference": 4.327084792076,
+        "median_log2_cpm_difference": 4.406760055469,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "SIGLEC1",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "Myeloid",
+        "direction_stable_leave_one_donor_out": true,
+        "fraction_donors_positive": 1.0,
+        "label": "positive",
+        "leave_one_donor_out_max_mean": 4.352754994808,
+        "leave_one_donor_out_min_mean": 4.089206948983,
+        "mean_log2_cpm_difference": 4.259370488207,
+        "median_log2_cpm_difference": 4.009387474161,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "IDO1",
+        "wilcoxon_p_one_sided": 0.00390625
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.25,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.241312898718,
+        "leave_one_donor_out_min_mean": -0.432896101205,
+        "mean_log2_cpm_difference": -0.330397768439,
+        "median_log2_cpm_difference": -0.361077670256,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD19",
+        "wilcoxon_p_one_sided": 0.97265625
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.0,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.36375512978,
+        "leave_one_donor_out_min_mean": -0.647906147783,
+        "mean_log2_cpm_difference": -0.57045285433,
+        "median_log2_cpm_difference": -0.381436112869,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "MS4A1",
+        "wilcoxon_p_one_sided": 1.0
+      },
+      {
+        "cell_type": "B_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.0,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.801967201487,
+        "leave_one_donor_out_min_mean": -0.927717181208,
+        "mean_log2_cpm_difference": -0.877818120902,
+        "median_log2_cpm_difference": -0.860124683975,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD79A",
+        "wilcoxon_p_one_sided": 1.0
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.0,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.656555240553,
+        "leave_one_donor_out_min_mean": -0.727537397928,
+        "mean_log2_cpm_difference": -0.700409198111,
+        "median_log2_cpm_difference": -0.654822422116,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD3E",
+        "wilcoxon_p_one_sided": 1.0
+      },
+      {
+        "cell_type": "T_cell",
+        "direction_stable_leave_one_donor_out": false,
+        "fraction_donors_positive": 0.25,
+        "label": "negative",
+        "leave_one_donor_out_max_mean": -0.308872267137,
+        "leave_one_donor_out_min_mean": -0.568333076106,
+        "mean_log2_cpm_difference": -0.413128757348,
+        "median_log2_cpm_difference": -0.600147023963,
+        "n_paired_donors": 8,
+        "stimulus": "IFN_I_6h_confirmation",
+        "study": "GSE96583",
+        "target": "CD8A",
+        "wilcoxon_p_one_sided": 0.97265625
+      }
+    ]
+  },
+  "expanded_tier1_tier2_metrics": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "exact_mann_whitney_p_one_sided": 0.000116713352,
+    "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+    "n_negative": 5,
+    "n_positive": 13,
+    "n_targets": 18,
+    "perfect_separation_observed": true,
+    "precision_at_10": 1.0,
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD38",
+      "CD3E",
+      "CD69",
+      "CD70",
+      "CD79A",
+      "CD8A",
+      "HAVCR2",
+      "HLA-DRA",
+      "ICAM1",
+      "ICOS",
+      "IDO1",
+      "LAG3",
+      "MS4A1",
+      "SIGLEC1",
+      "TIGIT",
+      "TNFRSF4"
+    ]
+  },
+  "frozen_cutoff_classification_tier1": {
+    "accuracy": 0.727272727273,
+    "balanced_accuracy": 0.75,
+    "confusion": {
+      "false_negative": 3,
+      "false_positive": 0,
+      "true_negative": 5,
+      "true_positive": 3
+    },
+    "cutoff": 0.62860296215,
+    "n_targets": 11,
+    "positive_predictive_value": 1.0,
+    "sensitivity": 0.5,
+    "specificity": 1.0
+  },
+  "ifn_i_cross_time_replication": {
+    "comparison": "GSE96583 IFN-beta 6 h versus GSE157857 IFN-beta 18 h, broad Myeloid",
+    "direction_agreement": 0.684210526316,
+    "effect_spearman": 0.707862704244,
+    "effect_spearman_p_value": 6.68027e-07,
+    "heterogeneity_warning": "I-squared values use only two studies at different time points and are descriptive, not evidence that exact-endpoint heterogeneity has been resolved.",
+    "n_shared_targets": 38,
+    "rows": [
+      {
+        "cross_time_i2": 84.938285316704,
+        "cross_time_random_effects_estimate": 0.180183223876,
+        "effect_18h": -0.103996021228,
+        "effect_6h": 0.485300697582,
+        "same_direction": false,
+        "target": "CD19"
+      },
+      {
+        "cross_time_i2": 30.68670160203,
+        "cross_time_random_effects_estimate": 3.119442089084,
+        "effect_18h": 3.035159668542,
+        "effect_6h": 3.481178092095,
+        "same_direction": true,
+        "target": "CD274"
+      },
+      {
+        "cross_time_i2": 85.771744763599,
+        "cross_time_random_effects_estimate": 6.692088913274,
+        "effect_18h": 7.204322132737,
+        "effect_6h": 6.108459809591,
+        "same_direction": true,
+        "target": "CD38"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": -0.038019172179,
+        "effect_18h": -0.013372296416,
+        "effect_6h": -0.083118628723,
+        "same_direction": true,
+        "target": "CD3E"
+      },
+      {
+        "cross_time_i2": 99.725548675066,
+        "cross_time_random_effects_estimate": -1.069057208575,
+        "effect_18h": -2.706944068365,
+        "effect_6h": 0.57142905231,
+        "same_direction": false,
+        "target": "CD4"
+      },
+      {
+        "cross_time_i2": 85.967799966263,
+        "cross_time_random_effects_estimate": 3.41838318171,
+        "effect_18h": 3.953834201055,
+        "effect_6h": 2.962714897212,
+        "same_direction": true,
+        "target": "CD69"
+      },
+      {
+        "cross_time_i2": 2.861839499948,
+        "cross_time_random_effects_estimate": 0.055192592011,
+        "effect_18h": 0.251461138898,
+        "effect_6h": -0.244106137886,
+        "same_direction": false,
+        "target": "CD70"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.958101085636,
+        "effect_18h": 0.922311332558,
+        "effect_6h": 1.064422370445,
+        "same_direction": true,
+        "target": "CD79A"
+      },
+      {
+        "cross_time_i2": 49.158312039473,
+        "cross_time_random_effects_estimate": 0.102467544141,
+        "effect_18h": 0.0,
+        "effect_6h": 0.416887822224,
+        "same_direction": false,
+        "target": "CD8A"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 9e-12,
+        "effect_18h": 0.114536309602,
+        "effect_6h": 0.0,
+        "same_direction": false,
+        "target": "CLDN18"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.0,
+        "effect_18h": 0.0,
+        "effect_6h": 0.0,
+        "same_direction": true,
+        "target": "CLDN6"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.264665797052,
+        "effect_18h": 0.124751368397,
+        "effect_6h": 0.36735588015,
+        "same_direction": true,
+        "target": "CTLA4"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": -1e-11,
+        "effect_18h": 0.0,
+        "effect_6h": -0.102385241129,
+        "same_direction": false,
+        "target": "DLL3"
+      },
+      {
+        "cross_time_i2": 94.142181382929,
+        "cross_time_random_effects_estimate": -1.082618451171,
+        "effect_18h": -1.684825698364,
+        "effect_6h": -0.474254770289,
+        "same_direction": true,
+        "target": "ENTPD1"
+      },
+      {
+        "cross_time_i2": 84.418976134499,
+        "cross_time_random_effects_estimate": -0.178821574267,
+        "effect_18h": -0.540373719534,
+        "effect_6h": 0.127177092844,
+        "same_direction": false,
+        "target": "ERBB2"
+      },
+      {
+        "cross_time_i2": 89.038099609936,
+        "cross_time_random_effects_estimate": 0.235290789949,
+        "effect_18h": 0.528517006572,
+        "effect_6h": 0.0,
+        "same_direction": false,
+        "target": "FAP"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.0,
+        "effect_18h": 0.0,
+        "effect_6h": 0.0,
+        "same_direction": true,
+        "target": "FOLR1"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.0,
+        "effect_18h": 0.0,
+        "effect_6h": 0.0,
+        "same_direction": true,
+        "target": "GPRC5D"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 1.306498787574,
+        "effect_18h": 1.242077163869,
+        "effect_6h": 1.336713087747,
+        "same_direction": true,
+        "target": "HAVCR2"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": -0.336156121502,
+        "effect_18h": -0.327835662894,
+        "effect_6h": -0.371105334517,
+        "same_direction": true,
+        "target": "HLA-DRA"
+      },
+      {
+        "cross_time_i2": 95.145989074693,
+        "cross_time_random_effects_estimate": 0.132372078626,
+        "effect_18h": 0.535874970328,
+        "effect_6h": -0.291363242924,
+        "same_direction": false,
+        "target": "ICAM1"
+      },
+      {
+        "cross_time_i2": 51.58270900406,
+        "cross_time_random_effects_estimate": 0.456629557556,
+        "effect_18h": 0.269514091856,
+        "effect_6h": 0.869794258451,
+        "same_direction": true,
+        "target": "ICOS"
+      },
+      {
+        "cross_time_i2": 91.454143609555,
+        "cross_time_random_effects_estimate": 3.492170965064,
+        "effect_18h": 2.657283213749,
+        "effect_6h": 4.259370488207,
+        "same_direction": true,
+        "target": "IDO1"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 1.015192971981,
+        "effect_18h": 1.120910424283,
+        "effect_6h": 0.768586770231,
+        "same_direction": true,
+        "target": "IL2RA"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 4.428233577436,
+        "effect_18h": 4.505671051474,
+        "effect_6h": 4.354813823623,
+        "same_direction": true,
+        "target": "LAG3"
+      },
+      {
+        "cross_time_i2": 83.284884495137,
+        "cross_time_random_effects_estimate": 0.115627968505,
+        "effect_18h": 0.615084198607,
+        "effect_6h": -0.546781945696,
+        "same_direction": false,
+        "target": "MICA"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 1.856060144916,
+        "effect_18h": 1.818357555434,
+        "effect_6h": 1.936971655264,
+        "same_direction": true,
+        "target": "MICB"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.684374901059,
+        "effect_18h": 0.507961292718,
+        "effect_6h": 1.032474072451,
+        "same_direction": true,
+        "target": "MS4A1"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.658438192277,
+        "effect_18h": 0.67751414723,
+        "effect_6h": 0.511014533982,
+        "same_direction": true,
+        "target": "PDCD1"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 2.591458172618,
+        "effect_18h": 2.423904551531,
+        "effect_6h": 2.856452321401,
+        "same_direction": true,
+        "target": "PDCD1LG2"
+      },
+      {
+        "cross_time_i2": 81.155925185578,
+        "cross_time_random_effects_estimate": 4.873674468783,
+        "effect_18h": 5.355345910197,
+        "effect_6h": 4.327084792076,
+        "same_direction": true,
+        "target": "SIGLEC1"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.108343294929,
+        "effect_18h": 0.101864494277,
+        "effect_6h": 0.160810169187,
+        "same_direction": true,
+        "target": "TIGIT"
+      },
+      {
+        "cross_time_i2": 92.538880827607,
+        "cross_time_random_effects_estimate": -1.993492524457,
+        "effect_18h": -0.801835915595,
+        "effect_6h": -3.108428607152,
+        "same_direction": true,
+        "target": "TNFRSF12A"
+      },
+      {
+        "cross_time_i2": 0.0,
+        "cross_time_random_effects_estimate": 0.327436273252,
+        "effect_18h": 0.522624180268,
+        "effect_6h": 0.225436427491,
+        "same_direction": true,
+        "target": "TNFRSF17"
+      },
+      {
+        "cross_time_i2": 85.797314635362,
+        "cross_time_random_effects_estimate": -1.397817722273,
+        "effect_18h": -1.907949643605,
+        "effect_6h": -0.721685607916,
+        "same_direction": true,
+        "target": "TNFRSF18"
+      },
+      {
+        "cross_time_i2": 89.057072895666,
+        "cross_time_random_effects_estimate": -1.084492170543,
+        "effect_18h": -1.671378946374,
+        "effect_6h": -0.547579601076,
+        "same_direction": true,
+        "target": "TNFRSF4"
+      },
+      {
+        "cross_time_i2": 85.236297146207,
+        "cross_time_random_effects_estimate": -0.294915909761,
+        "effect_18h": 0.490334089386,
+        "effect_6h": -0.966739109428,
+        "same_direction": false,
+        "target": "TNFRSF9"
+      },
+      {
+        "cross_time_i2": 83.408864102803,
+        "cross_time_random_effects_estimate": 0.404447017153,
+        "effect_18h": 0.974435582495,
+        "effect_6h": -0.073776983211,
+        "same_direction": false,
+        "target": "VCAM1"
+      }
+    ],
+    "status": "SENSITIVITY_ONLY_DIFFERENT_TIMEPOINTS_AND_DISEASE_CONTEXTS"
+  },
+  "observability_threshold_sensitivity": [
+    {
+      "frozen_cutoff_classification": {
+        "accuracy": 0.714285714286,
+        "balanced_accuracy": 0.75,
+        "confusion": {
+          "false_negative": 4,
+          "false_positive": 0,
+          "true_negative": 6,
+          "true_positive": 4
+        },
+        "cutoff": 0.62860296215,
+        "n_targets": 14,
+        "positive_predictive_value": 1.0,
+        "sensitivity": 0.5,
+        "specificity": 1.0
+      },
+      "observability_fraction_cutoff": 0.01,
+      "observable_holdout_positives": [
+        "PDCD1LG2",
+        "TNFRSF9"
+      ],
+      "observable_tier1_controls": 14,
+      "tier1_metrics": {
+        "auroc": 0.875,
+        "average_precision": 0.946428571429,
+        "exact_mann_whitney_p_one_sided": 0.00999000999,
+        "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+        "n_negative": 6,
+        "n_positive": 8,
+        "n_targets": 14,
+        "perfect_separation_observed": false,
+        "precision_at_10": 0.7,
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD4",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "MS4A1",
+          "PDCD1LG2",
+          "TNFRSF4",
+          "TNFRSF9"
+        ]
+      }
+    },
+    {
+      "frozen_cutoff_classification": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.785714285714,
+        "confusion": {
+          "false_negative": 3,
+          "false_positive": 0,
+          "true_negative": 5,
+          "true_positive": 4
+        },
+        "cutoff": 0.62860296215,
+        "n_targets": 12,
+        "positive_predictive_value": 1.0,
+        "sensitivity": 0.571428571429,
+        "specificity": 1.0
+      },
+      "observability_fraction_cutoff": 0.025,
+      "observable_holdout_positives": [
+        "PDCD1LG2"
+      ],
+      "observable_tier1_controls": 12,
+      "tier1_metrics": {
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "exact_mann_whitney_p_one_sided": 0.001262626263,
+        "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+        "n_negative": 5,
+        "n_positive": 7,
+        "n_targets": 12,
+        "perfect_separation_observed": true,
+        "precision_at_10": 0.7,
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "MS4A1",
+          "PDCD1LG2",
+          "TNFRSF4"
+        ]
+      }
+    },
+    {
+      "frozen_cutoff_classification": {
+        "accuracy": 0.727272727273,
+        "balanced_accuracy": 0.75,
+        "confusion": {
+          "false_negative": 3,
+          "false_positive": 0,
+          "true_negative": 5,
+          "true_positive": 3
+        },
+        "cutoff": 0.62860296215,
+        "n_targets": 11,
+        "positive_predictive_value": 1.0,
+        "sensitivity": 0.5,
+        "specificity": 1.0
+      },
+      "observability_fraction_cutoff": 0.05,
+      "observable_holdout_positives": [],
+      "observable_tier1_controls": 11,
+      "tier1_metrics": {
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "exact_mann_whitney_p_one_sided": 0.002164502165,
+        "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+        "n_negative": 5,
+        "n_positive": 6,
+        "n_targets": 11,
+        "perfect_separation_observed": true,
+        "precision_at_10": 0.6,
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD3E",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "MS4A1",
+          "TNFRSF4"
+        ]
+      }
+    },
+    {
+      "frozen_cutoff_classification": {
+        "accuracy": 0.777777777778,
+        "balanced_accuracy": 0.8,
+        "confusion": {
+          "false_negative": 2,
+          "false_positive": 0,
+          "true_negative": 4,
+          "true_positive": 3
+        },
+        "cutoff": 0.62860296215,
+        "n_targets": 9,
+        "positive_predictive_value": 1.0,
+        "sensitivity": 0.6,
+        "specificity": 1.0
+      },
+      "observability_fraction_cutoff": 0.1,
+      "observable_holdout_positives": [],
+      "observable_tier1_controls": 9,
+      "tier1_metrics": {
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "exact_mann_whitney_p_one_sided": 0.007936507937,
+        "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+        "n_negative": 4,
+        "n_positive": 5,
+        "n_targets": 9,
+        "perfect_separation_observed": true,
+        "precision_at_10": 0.555555555556,
+        "targets": [
+          "CD274",
+          "CD3E",
+          "CD69",
+          "CD79A",
+          "CD8A",
+          "HLA-DRA",
+          "ICAM1",
+          "IDO1",
+          "MS4A1"
+        ]
+      }
+    }
+  ],
+  "protocol": {
+    "endpoint": {
+      "axis": "IFN-I",
+      "role": "external-confirmation",
+      "stimulus": "IFN_I_6h_confirmation",
+      "study": "GSE96583",
+      "time_hours": 6
+    },
+    "frozen_classification_cutoff": 0.62860296215,
+    "no_tuning_statement": "No endpoint, lineage mapping, score definition, z value, observability cutoff or target split was changed after GSE96583 was opened.",
+    "observability_fraction_cutoff": 0.05,
+    "rule_source": "v0.3 frozen endpoint-lineage-observability-score specification",
+    "score_definition": "maximum one-sided 95% lower confidence bound across pre-specified endpoints and target-relevant covered lineages"
+  },
+  "schema_version": 1,
+  "status": "PARTIAL_EXTERNAL_CONFIRMATION_WITH_TARGET_HOLDOUT_ABSTENTION",
+  "target_holdout": {
+    "frozen_cutoff_classification": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion": {
+        "false_negative": 0,
+        "false_positive": 0,
+        "true_negative": 5,
+        "true_positive": 0
+      },
+      "cutoff": 0.62860296215,
+      "n_targets": 5,
+      "positive_predictive_value": null,
+      "sensitivity": null,
+      "specificity": 1.0
+    },
+    "interpretation": "The external cohort is informative for observable controls, but it cannot confirm the preassigned positive target holdout when all held-out positives abstain at the frozen 5% observability rule.",
+    "observable_negative_targets": [
+      "CD19",
+      "CD3E",
+      "CD79A",
+      "CD8A",
+      "MS4A1"
+    ],
+    "observable_positive_targets": [],
+    "preassigned_positive_targets": [
+      "IL2RA",
+      "PDCD1LG2",
+      "TNFRSF9"
+    ],
+    "ranking_metrics": {
+      "auroc": null,
+      "average_precision": null,
+      "exact_mann_whitney_p_one_sided": null,
+      "n_negative": 5,
+      "n_positive": 0,
+      "n_targets": 5,
+      "perfect_separation_observed": null,
+      "precision_at_10": null,
+      "targets": [
+        "CD19",
+        "CD3E",
+        "CD79A",
+        "CD8A",
+        "MS4A1"
+      ]
+    },
+    "status": "INCONCLUSIVE_NO_OBSERVABLE_POSITIVE_HOLDOUT_TARGETS"
+  },
+  "target_scores": [
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid",
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 6.108459809591,
+      "driver_positive_fraction_activated": 0.384134134134,
+      "driver_positive_fraction_resting": 0.00813648294,
+      "driver_standard_error": 0.352922938858,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "B_cell",
+        "Myeloid",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.384134134134,
+      "score": 5.41673084943,
+      "target": "CD38",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "NK_cell",
+      "driver_effect": 5.413948072435,
+      "driver_positive_fraction_activated": 0.271084337349,
+      "driver_positive_fraction_resting": 0.01814516129,
+      "driver_standard_error": 0.659900611593,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.271084337349,
+      "score": 4.120542873713,
+      "target": "LAG3",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 4.259370488207,
+      "driver_positive_fraction_activated": 0.802802802803,
+      "driver_positive_fraction_resting": 0.083989501312,
+      "driver_standard_error": 0.235481048555,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.802802802803,
+      "score": 3.797827633039,
+      "target": "IDO1",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 4.327084792076,
+      "driver_positive_fraction_activated": 0.106106106106,
+      "driver_positive_fraction_resting": 0.005511811024,
+      "driver_standard_error": 0.364688390088,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.106106106106,
+      "score": 3.612295547503,
+      "target": "SIGLEC1",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 3.481178092095,
+      "driver_positive_fraction_activated": 0.107857857858,
+      "driver_positive_fraction_resting": 0.010761154856,
+      "driver_standard_error": 0.361687739046,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid",
+        "B_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.107857857858,
+      "score": 2.772270123564,
+      "target": "CD274",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 1.527308783411,
+      "driver_positive_fraction_activated": 0.233291298865,
+      "driver_positive_fraction_resting": 0.099101123596,
+      "driver_standard_error": 0.110546617792,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.359255202629,
+      "score": 1.310637412539,
+      "target": "CD69",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "Myeloid",
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 1.336713087747,
+      "driver_positive_fraction_activated": 0.359109109109,
+      "driver_positive_fraction_resting": 0.176377952756,
+      "driver_standard_error": 0.071305137562,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell",
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.359109109109,
+      "score": 1.196955018125,
+      "target": "HAVCR2",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 1.089734193024,
+      "driver_positive_fraction_activated": 0.061538461538,
+      "driver_positive_fraction_resting": 0.033258426966,
+      "driver_standard_error": 0.344942489454,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.061538461538,
+      "score": 0.413646913695,
+      "target": "ICOS",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 0.153230180544,
+      "driver_positive_fraction_activated": 0.063808322825,
+      "driver_positive_fraction_resting": 0.057078651685,
+      "driver_standard_error": 0.091362976347,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.063808322825,
+      "score": -0.025841253097,
+      "target": "TNFRSF4",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -0.07785337136,
+      "driver_positive_fraction_activated": 0.080201765448,
+      "driver_positive_fraction_resting": 0.077752808989,
+      "driver_standard_error": 0.119584086296,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.157258064516,
+      "score": -0.3122381805,
+      "target": "TIGIT",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": -0.371105334517,
+      "driver_positive_fraction_activated": 0.890640640641,
+      "driver_positive_fraction_resting": 0.925984251969,
+      "driver_standard_error": 0.052752400054,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid",
+        "B_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.925984251969,
+      "score": -0.474500038623,
+      "target": "HLA-DRA",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid",
+        "T_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": 0.257430656863,
+      "driver_positive_fraction_activated": 0.047142857143,
+      "driver_positive_fraction_resting": 0.057553956835,
+      "driver_standard_error": 0.400623485692,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "B_cell",
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.057553956835,
+      "score": -0.527791375094,
+      "target": "CD70",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid",
+        "T_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": 1.460715792698,
+      "driver_positive_fraction_activated": 0.012857142857,
+      "driver_positive_fraction_resting": 0.00196206671,
+      "driver_standard_error": 1.032917689545,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid",
+        "B_cell",
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": true,
+      "observable_fraction_max": 0.115748031496,
+      "score": -0.563802878811,
+      "target": "ICAM1",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": -0.330397768439,
+      "driver_positive_fraction_activated": 0.075,
+      "driver_positive_fraction_resting": 0.077174623937,
+      "driver_standard_error": 0.163479396568,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "B_cell"
+      ],
+      "label": "negative",
+      "observable": true,
+      "observable_fraction_max": 0.077174623937,
+      "score": -0.650817385711,
+      "target": "CD19",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -0.413128757348,
+      "driver_positive_fraction_activated": 0.079949558638,
+      "driver_positive_fraction_resting": 0.10606741573,
+      "driver_standard_error": 0.207669092729,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "negative",
+      "observable": true,
+      "observable_fraction_max": 0.10606741573,
+      "score": -0.820160179098,
+      "target": "CD8A",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -0.700409198111,
+      "driver_positive_fraction_activated": 0.273729497177,
+      "driver_positive_fraction_resting": 0.372654155496,
+      "driver_standard_error": 0.062191153795,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "negative",
+      "observable": true,
+      "observable_fraction_max": 0.372654155496,
+      "score": -0.822303859549,
+      "target": "CD3E",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": -0.57045285433,
+      "driver_positive_fraction_activated": 0.310734463277,
+      "driver_positive_fraction_resting": 0.399608865711,
+      "driver_standard_error": 0.218430852177,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "B_cell"
+      ],
+      "label": "negative",
+      "observable": true,
+      "observable_fraction_max": 0.399608865711,
+      "score": -0.998577324596,
+      "target": "MS4A1",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": null,
+      "covered_lineages": [
+        "B_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": -0.877818120902,
+      "driver_positive_fraction_activated": 0.456948640483,
+      "driver_positive_fraction_resting": 0.617379117029,
+      "driver_standard_error": 0.099791292422,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "B_cell"
+      ],
+      "label": "negative",
+      "observable": true,
+      "observable_fraction_max": 0.617379117029,
+      "score": -1.073409054049,
+      "target": "CD79A",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 0.820666016692,
+      "driver_positive_fraction_activated": 0.008322824716,
+      "driver_positive_fraction_resting": 0.002696629213,
+      "driver_standard_error": 0.913862146931,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.008322824716,
+      "score": null,
+      "target": "IL2RA",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "NK_cell",
+      "driver_effect": 0.079213573359,
+      "driver_positive_fraction_activated": 0.016976998905,
+      "driver_positive_fraction_resting": 0.01747311828,
+      "driver_standard_error": 0.97598860368,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.01747311828,
+      "score": null,
+      "target": "TNFRSF9",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 1.006998032436,
+      "driver_positive_fraction_activated": 0.003783102144,
+      "driver_positive_fraction_resting": 0.000898876404,
+      "driver_standard_error": 0.728189225762,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.003783102144,
+      "score": null,
+      "target": "PDCD1",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": 0.293827728091,
+      "driver_positive_fraction_activated": 0.029003783102,
+      "driver_positive_fraction_resting": 0.019325842697,
+      "driver_standard_error": 0.324566831942,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.029003783102,
+      "score": null,
+      "target": "CTLA4",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 2.856452321401,
+      "driver_positive_fraction_activated": 0.028278278278,
+      "driver_positive_fraction_resting": 0.003674540682,
+      "driver_standard_error": 0.499489125949,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.028278278278,
+      "score": null,
+      "target": "PDCD1LG2",
+      "tier": 1,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -0.395869783974,
+      "driver_positive_fraction_activated": 0.027238335435,
+      "driver_positive_fraction_resting": 0.03595505618,
+      "driver_standard_error": 0.170078834373,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.03595505618,
+      "score": null,
+      "target": "TNFRSF18",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "NK_cell",
+        "T_cell"
+      ],
+      "driver_cell_type": "NK_cell",
+      "driver_effect": 0.600574233111,
+      "driver_positive_fraction_activated": 0.004928806134,
+      "driver_positive_fraction_resting": 0.004032258065,
+      "driver_standard_error": 0.674099361556,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "NK_cell"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.004928806134,
+      "score": null,
+      "target": "ENTPD1",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid",
+        "T_cell"
+      ],
+      "driver_cell_type": "B_cell",
+      "driver_effect": 1.69575595433,
+      "driver_positive_fraction_activated": 0.017857142857,
+      "driver_positive_fraction_resting": 0.005886200131,
+      "driver_standard_error": 0.582401122095,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "B_cell",
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.038845144357,
+      "score": null,
+      "target": "MICA",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "B_cell",
+        "Myeloid",
+        "T_cell"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 1.936971655264,
+      "driver_positive_fraction_activated": 0.046046046046,
+      "driver_positive_fraction_resting": 0.011286089239,
+      "driver_standard_error": 0.292810599587,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "B_cell",
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.046046046046,
+      "score": null,
+      "target": "MICB",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": -0.073776983211,
+      "driver_positive_fraction_activated": 0.00025025025,
+      "driver_positive_fraction_resting": 0.000262467192,
+      "driver_standard_error": 0.207492489469,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.000262467192,
+      "score": null,
+      "target": "VCAM1",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "Myeloid"
+      ],
+      "driver_cell_type": "Myeloid",
+      "driver_effect": 0.0,
+      "driver_positive_fraction_activated": 0.0,
+      "driver_positive_fraction_resting": 0.0,
+      "driver_standard_error": 1e-06,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.0,
+      "score": null,
+      "target": "FAP",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "Myeloid",
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -1.116731361007,
+      "driver_positive_fraction_activated": 0.005044136192,
+      "driver_positive_fraction_resting": 0.012808988764,
+      "driver_standard_error": 0.199167565641,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell",
+        "Myeloid"
+      ],
+      "label": "positive",
+      "observable": false,
+      "observable_fraction_max": 0.032545931759,
+      "score": null,
+      "target": "TNFRSF12A",
+      "tier": 2,
+      "y_true": 1
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Plasma_cell"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "TNFRSF17",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Plasma_cell"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "GPRC5D",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Epithelial"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "CLDN18",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Epithelial"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "CLDN6",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Epithelial"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "DLL3",
+      "tier": 2,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "TARGET_NOT_OBSERVABLE_AT_COVERAGE_THRESHOLD",
+      "covered_lineages": [
+        "T_cell"
+      ],
+      "driver_cell_type": "T_cell",
+      "driver_effect": -0.569374851964,
+      "driver_positive_fraction_activated": 0.008827238335,
+      "driver_positive_fraction_resting": 0.010786516854,
+      "driver_standard_error": 0.359701089013,
+      "driver_stimulus": "IFN_I_6h_confirmation",
+      "driver_total_pairs": 8.0,
+      "expected_lineages": [
+        "T_cell"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": 0.010786516854,
+      "score": null,
+      "target": "CD4",
+      "tier": 1,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Epithelial"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "ERBB2",
+      "tier": 2,
+      "y_true": 0
+    },
+    {
+      "abstention_reason": "LINEAGE_NOT_COVERED",
+      "covered_lineages": [],
+      "driver_cell_type": null,
+      "driver_effect": null,
+      "driver_positive_fraction_activated": null,
+      "driver_positive_fraction_resting": null,
+      "driver_standard_error": null,
+      "driver_stimulus": null,
+      "driver_total_pairs": null,
+      "expected_lineages": [
+        "Epithelial"
+      ],
+      "label": "negative",
+      "observable": false,
+      "observable_fraction_max": null,
+      "score": null,
+      "target": "FOLR1",
+      "tier": 2,
+      "y_true": 0
+    }
+  ],
+  "tier1_ranking_metrics": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "exact_mann_whitney_p_one_sided": 0.002164502165,
+    "interpretation_guardrail": "The exact p-value conditions on this small curated control set and does not measure dataset-selection or external-validity uncertainty.",
+    "n_negative": 5,
+    "n_positive": 6,
+    "n_targets": 11,
+    "perfect_separation_observed": true,
+    "precision_at_10": 0.6,
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD3E",
+      "CD69",
+      "CD79A",
+      "CD8A",
+      "HLA-DRA",
+      "ICAM1",
+      "IDO1",
+      "MS4A1",
+      "TNFRSF4"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+accession: GSE126030
+source_repository: GEO
+publication_doi: 10.1038/s41467-019-12464-3
+tissue: blood_lung_lymph_node_bone_marrow
+disease_context: healthy
+stimulus_axis: lymphocyte_activation
+platform: 10x_genomics_scrna
+modality: RNA
+donor_count: 0
+condition_labels:
+  resting: control
+  activated: anti-CD3_CD28
+licence: NOT_VERIFIED
+verified: false
+default: false
+downloads: []
+notes: >-
+  Accession existence, stimulation design and publication linkage were identified from public GEO and
+  Nature records. Donor-level pairing, exact sample count, reuse licence and downloadable file mapping
+  remain deliberately unverified; this manifest is excluded from defaults.

@@ -1,0 +1,12 @@
+activation-liability v0.5.0 verification — 2026-07-31
+ruff format --check .: PASS
+ruff check .: PASS
+mypy --strict src/activation_liability: PASS (21 modules)
+pyright 1.1.411: PASS (0 errors, 0 warnings)
+compileall: PASS
+pytest: PASS (50 tests)
+configured non-I/O coverage: PASS (85.38011695906432%)
+manifest validation: PASS
+README truthfulness: PASS
+tissue rebuild: PASS (14/14 byte-identical artefacts)
+clean stage: PASS (120 files; 0 forbidden raw-data files)

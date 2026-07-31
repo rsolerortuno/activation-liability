@@ -1,0 +1,526 @@
+{
+  "default": {
+    "detection_count_threshold": 0,
+    "lfc_cutoff": 0.5,
+    "positive_fraction_cutoff": 0.1
+  },
+  "median_spearman": 0.9089615931721193,
+  "n_settings": 27,
+  "ranking_stability": "STABLE",
+  "schema_version": 1,
+  "settings": [
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9428821534084693,
+      "top10": [
+        "CD3E",
+        "TIGIT",
+        "CD274",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "LAG3",
+        "ICAM1",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 0.9
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9280008753692964,
+      "top10": [
+        "CD3E",
+        "TIGIT",
+        "CD274",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "LAG3",
+        "ICAM1",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 0.9
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9339096181201443,
+      "top10": [
+        "CD3E",
+        "TIGIT",
+        "CD274",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "LAG3",
+        "ICAM1",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 0.9
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 1.0,
+      "top10": [
+        "ICAM1",
+        "HLA-DRA",
+        "CD274",
+        "CD69",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD3E",
+        "TIGIT",
+        "LAG3",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 1.0
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 1.0,
+      "top10": [
+        "ICAM1",
+        "HLA-DRA",
+        "CD274",
+        "CD69",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD3E",
+        "TIGIT",
+        "LAG3",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 1.0
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.9997811576758946,
+      "top10": [
+        "ICAM1",
+        "HLA-DRA",
+        "CD274",
+        "CD69",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD3E",
+        "TIGIT",
+        "LAG3",
+        "TNFRSF4"
+      ],
+      "top10_overlap_vs_default": 1.0
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.9459459459459459,
+      "top10": [
+        "CD274",
+        "HLA-DRA",
+        "PDCD1LG2",
+        "ICAM1",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "CD70",
+        "IL2RA",
+        "MICB"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.9426633110843636,
+      "top10": [
+        "CD274",
+        "HLA-DRA",
+        "PDCD1LG2",
+        "ICAM1",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "CD70",
+        "IL2RA",
+        "MICB"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 0,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.9365357260094103,
+      "top10": [
+        "CD274",
+        "HLA-DRA",
+        "PDCD1LG2",
+        "ICAM1",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "CD70",
+        "IL2RA",
+        "MICB"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.8929861035124192,
+      "top10": [
+        "CD274",
+        "TNFRSF9",
+        "PDCD1LG2",
+        "VCAM1",
+        "IDO1",
+        "CD3E",
+        "MICB",
+        "ICAM1",
+        "IL2RA",
+        "CD70"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.8883904147062042,
+      "top10": [
+        "CD274",
+        "TNFRSF9",
+        "PDCD1LG2",
+        "VCAM1",
+        "IDO1",
+        "CD3E",
+        "MICB",
+        "ICAM1",
+        "IL2RA",
+        "CD70"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.8822628296312507,
+      "top10": [
+        "CD274",
+        "TNFRSF9",
+        "PDCD1LG2",
+        "VCAM1",
+        "IDO1",
+        "CD3E",
+        "MICB",
+        "ICAM1",
+        "IL2RA",
+        "CD70"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.933690775796039,
+      "top10": [
+        "CD274",
+        "PDCD1LG2",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "ICAM1",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.7
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.9247182405077142,
+      "top10": [
+        "CD274",
+        "PDCD1LG2",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "ICAM1",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.7
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.9277820330451908,
+      "top10": [
+        "CD274",
+        "PDCD1LG2",
+        "IDO1",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "ICAM1",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.7
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8857643068169385,
+      "top10": [
+        "CD38",
+        "CD274",
+        "IDO1",
+        "SIGLEC1",
+        "CD3E",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "PDCD1LG2"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8857643068169385,
+      "top10": [
+        "CD38",
+        "CD274",
+        "IDO1",
+        "SIGLEC1",
+        "CD3E",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "PDCD1LG2"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 1,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8857643068169385,
+      "top10": [
+        "CD38",
+        "CD274",
+        "IDO1",
+        "SIGLEC1",
+        "CD3E",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "PDCD1LG2"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9089615931721193,
+      "top10": [
+        "CD274",
+        "IDO1",
+        "PDCD1LG2",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "SIGLEC1"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9089615931721193,
+      "top10": [
+        "CD274",
+        "IDO1",
+        "PDCD1LG2",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "SIGLEC1"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.05,
+      "spearman_vs_default": 0.9089615931721193,
+      "top10": [
+        "CD274",
+        "IDO1",
+        "PDCD1LG2",
+        "CD3E",
+        "VCAM1",
+        "IL2RA",
+        "TNFRSF4",
+        "CD70",
+        "HLA-DRA",
+        "SIGLEC1"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.8599409125724916,
+      "top10": [
+        "CD274",
+        "CD3E",
+        "CD38",
+        "MICA",
+        "IL2RA",
+        "SIGLEC1",
+        "TNFRSF4",
+        "CD70",
+        "IDO1",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.8599409125724916,
+      "top10": [
+        "CD274",
+        "CD3E",
+        "CD38",
+        "MICA",
+        "IL2RA",
+        "SIGLEC1",
+        "TNFRSF4",
+        "CD70",
+        "IDO1",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.1,
+      "spearman_vs_default": 0.8599409125724916,
+      "top10": [
+        "CD274",
+        "CD3E",
+        "CD38",
+        "MICA",
+        "IL2RA",
+        "SIGLEC1",
+        "TNFRSF4",
+        "CD70",
+        "IDO1",
+        "HLA-DRA"
+      ],
+      "top10_overlap_vs_default": 0.5
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.5,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8831381989276726,
+      "top10": [
+        "CD3E",
+        "CD274",
+        "SIGLEC1",
+        "MICA",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD69",
+        "CD38"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 0.75,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8831381989276726,
+      "top10": [
+        "CD3E",
+        "CD274",
+        "SIGLEC1",
+        "MICA",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD69",
+        "CD38"
+      ],
+      "top10_overlap_vs_default": 0.6
+    },
+    {
+      "detection_count_threshold": 2,
+      "lfc_cutoff": 1.0,
+      "positive_fraction_cutoff": 0.2,
+      "spearman_vs_default": 0.8831381989276726,
+      "top10": [
+        "CD3E",
+        "CD274",
+        "SIGLEC1",
+        "MICA",
+        "CD70",
+        "HLA-DRA",
+        "IL2RA",
+        "PDCD1LG2",
+        "CD69",
+        "CD38"
+      ],
+      "top10_overlap_vs_default": 0.6
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+accession: GSE197067
+source_repository: GEO
+publication_doi: NOT_VERIFIED
+tissue: peripheral_blood_T_cells
+disease_context: healthy
+stimulus_axis: lymphocyte_activation
+platform: bulk_RNA_seq
+modality: sorted_bulk
+donor_count: 4
+condition_labels:
+  resting: time_matched_unstimulated
+  activated: anti-CD3_CD28
+licence: NOT_VERIFIED
+verified: false
+default: false
+downloads: []
+notes: >-
+  GEO states that four healthy donors were profiled across a stimulation time course and a matched
+  unstimulated control series. Raw-data availability, DOI, licence and exact processed-file mapping
+  remain unverified; this manifest is excluded from defaults.

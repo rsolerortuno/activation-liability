@@ -1,0 +1,1004 @@
+{
+  "ablations": {
+    "detection_threshold_sweep": {
+      "default": {
+        "detection_count_threshold": 0,
+        "lfc_cutoff": 0.5,
+        "positive_fraction_cutoff": 0.1
+      },
+      "median_spearman": 0.9890645586297759,
+      "n_settings": 27,
+      "ranking_stability": "STABLE",
+      "schema_version": 1,
+      "settings": [
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9822134387351777,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "ICOS",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9822134387351777,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "ICOS",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9822134387351777,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "ICOS",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9999999999999999,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD274",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9999999999999999,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD274",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9999999999999999,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD274",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9926218708827402,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9926218708827402,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 0,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9930171277997365,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9865612648221342,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "TNFRSF4",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9890645586297759,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "TNFRSF4",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9895915678524374,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "TNFRSF4",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9914361001317522,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9907773386034254,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9907773386034254,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9827404479578391,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "LAG3",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1",
+            "TNFSF18"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9822134387351777,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "LAG3",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1",
+            "TNFSF18"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 1,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9822134387351777,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "LAG3",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1",
+            "TNFSF18"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9902503293807641,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.8
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9895915678524374,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.8
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.05,
+          "spearman_vs_default": 0.9895915678524374,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "SIGLEC1",
+            "LAG3",
+            "TNFRSF18",
+            "CD274",
+            "ICAM1"
+          ],
+          "top10_overlap_vs_default": 0.8
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9828722002635045,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.9824769433465085,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.1,
+          "spearman_vs_default": 0.981554677206851,
+          "top10": [
+            "IL2RA",
+            "IDO1",
+            "CD38",
+            "TNFRSF9",
+            "CD69",
+            "LAG3",
+            "TNFRSF4",
+            "CD274",
+            "ICAM1",
+            "SIGLEC1"
+          ],
+          "top10_overlap_vs_default": 0.9
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.5,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9861660079051383,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 0.75,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9855072463768115,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        },
+        {
+          "detection_count_threshold": 2,
+          "lfc_cutoff": 1.0,
+          "positive_fraction_cutoff": 0.2,
+          "spearman_vs_default": 0.9855072463768115,
+          "top10": [
+            "IDO1",
+            "IL2RA",
+            "CD38",
+            "CD69",
+            "TNFRSF9",
+            "CD274",
+            "SIGLEC1",
+            "LAG3",
+            "TNFSF18",
+            "TNFRSF4"
+          ],
+          "top10_overlap_vs_default": 1.0
+        }
+      ]
+    },
+    "pseudobulk_vs_cell_level": {
+      "INVALID_FOR_INFERENCE_cell_level_significant_calls": 199,
+      "inflation_ratio": 1.5307692307692307,
+      "pseudobulk_significant_calls": 130
+    },
+    "rna_only_vs_protein_corroborated": {
+      "protein_corroborated_score": {
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "precision_at_10": 0.9
+      },
+      "rna_only": {
+        "auroc": 1.0,
+        "average_precision": 1.0000000000000002,
+        "precision_at_10": 0.9
+      }
+    },
+    "within_study_vs_cross_study": {
+      "INVALID_FOR_INFERENCE_cross_study": {
+        "auroc": 0.8666666666666668,
+        "average_precision": 0.9141414141414144,
+        "precision_at_10": 0.7
+      },
+      "primary_within_study": {
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "precision_at_10": 0.9
+      }
+    }
+  },
+  "all_tier1_metrics": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "precision_at_10": 0.9
+  },
+  "claims": {
+    "conditional_claims": [
+      {
+        "claim": "Matched surface-protein induction corroborates RNA induction.",
+        "condition": "Only for target-cell-stimulus rows labelled CONCORDANT.",
+        "targets": [
+          "CCR2",
+          "FCER1A",
+          "FCGR1A",
+          "TNFSF18"
+        ]
+      },
+      {
+        "claim": "There is sufficient evidence for an activation-liability call.",
+        "condition": "Means evidence class A, B or C; it does not mean clinical toxicity.",
+        "targets": [
+          "CD19",
+          "CD274",
+          "CD38",
+          "CD3E",
+          "CD4",
+          "CD69",
+          "CD70",
+          "CD8A",
+          "CTLA4",
+          "DLL3",
+          "HAVCR2",
+          "HLA-DRA",
+          "ICAM1",
+          "ICOS",
+          "IDO1",
+          "IL2RA",
+          "LAG3",
+          "MICA",
+          "MICB",
+          "PDCD1",
+          "PDCD1LG2",
+          "SIGLEC1",
+          "TIGIT",
+          "TNFRSF12A",
+          "TNFRSF18",
+          "TNFRSF4",
+          "TNFRSF9",
+          "TNFSF18"
+        ]
+      }
+    ],
+    "coverage": {
+      "abstention_rate": 0.37777777777777777,
+      "protein_corroborated_targets": 4,
+      "targets": 45
+    },
+    "permitted_claims": [
+      {
+        "claim": "Within-study paired RNA inducibility was estimated for covered target-cell-stimulus combinations.",
+        "condition": "Valid only for the studies, donors, cell types and stimuli recorded in audit.json."
+      },
+      {
+        "claim": "Activation expanded or contracted the detected normal-cell footprint for evaluated targets.",
+        "condition": "Depends on the stated detection and positive-fraction thresholds."
+      }
+    ],
+    "schema_version": 1,
+    "unsupported_claims": [
+      "The tool predicts clinical toxicity.",
+      "The tool establishes a therapeutic window.",
+      "A non-induced target is safe.",
+      "RNA induction proves accessible surface protein.",
+      "Synthetic benchmark performance is real-data validation."
+    ]
+  },
+  "holdout": {
+    "coverage_vs_accuracy": [
+      {
+        "abstention": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0
+      },
+      {
+        "abstention": 0.23076923076923073,
+        "accuracy": 1.0,
+        "coverage": 0.7692307692307693
+      },
+      {
+        "abstention": 0.46153846153846156,
+        "accuracy": 1.0,
+        "coverage": 0.5384615384615384
+      },
+      {
+        "abstention": 0.6923076923076923,
+        "accuracy": 1.0,
+        "coverage": 0.3076923076923077
+      }
+    ],
+    "holdout_metrics": {
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "precision_at_10": 0.3
+    },
+    "holdout_positive_targets": [
+      "IL2RA",
+      "PDCD1LG2",
+      "TNFRSF9"
+    ],
+    "negative_targets_used_in_both": [
+      "CD19",
+      "CD3E",
+      "CD4",
+      "CD79A",
+      "CD8A",
+      "CLDN18",
+      "CLDN6",
+      "GPRC5D",
+      "MS4A1",
+      "TNFRSF17"
+    ],
+    "rule": "30% of tier-1 positives, deterministic SHA-256 ordering; never used to select cutoff",
+    "selected_cutoff_from_train": 2.874117556728242,
+    "train_metrics": {
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "precision_at_10": 0.6
+    },
+    "train_positive_targets": [
+      "CD274",
+      "CD69",
+      "HLA-DRA",
+      "ICAM1",
+      "IDO1",
+      "TNFRSF4"
+    ]
+  },
+  "schema_version": 1,
+  "status": "COMPUTED",
+  "target_scores": [
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 9.434828430361696,
+      "score": 7.9,
+      "target": "IL2RA",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 7.654909507771093,
+      "score": 7.9,
+      "target": "TNFRSF9",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 6.674413232026112,
+      "score": 7.35,
+      "target": "CD38",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 6.062398240866223,
+      "score": 6.862398240866222,
+      "target": "CD274",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 5.944903882267002,
+      "score": 6.7449038822670015,
+      "target": "CD69",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 5.704993776149564,
+      "score": 6.504993776149564,
+      "target": "LAG3",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 8.725113495824028,
+      "score": 6.4,
+      "target": "IDO1",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 5.542994777924863,
+      "score": 6.342994777924863,
+      "target": "TNFRSF4",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 5.522349086253908,
+      "score": 6.322349086253909,
+      "target": "TNFRSF18",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 5.9053459101966865,
+      "score": 6.305345910196687,
+      "target": "SIGLEC1",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 4.4675502256305375,
+      "score": 5.267550225630537,
+      "target": "ICAM1",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 4.816288602846263,
+      "score": 5.216288602846263,
+      "target": "ICOS",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 4.244463967302968,
+      "score": 5.044463967302968,
+      "target": "CTLA4",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 4.027780007073376,
+      "score": 4.827780007073376,
+      "target": "MICB",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 3.9679385687976216,
+      "score": 4.7679385687976215,
+      "target": "PDCD1",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 3.8483943560714167,
+      "score": 4.248394356071416,
+      "target": "PDCD1LG2",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 3.437716219064518,
+      "score": 4.237716219064518,
+      "target": "HAVCR2",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 2.7969636679488885,
+      "score": 3.5969636679488888,
+      "target": "CD70",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 2.567542132894359,
+      "score": 3.367542132894359,
+      "target": "TNFRSF12A",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 2.640003803760153,
+      "score": 3.040003803760153,
+      "target": "HLA-DRA",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 2.912691289788613,
+      "score": 2.912691289788613,
+      "target": "ERBB2",
+      "tier": 2
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.9082313096963313,
+      "score": 2.7082313096963313,
+      "target": "CD3E",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.8041868856886938,
+      "score": 2.6041868856886934,
+      "target": "CD8A",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 2.2846506966784386,
+      "score": 2.2846506966784386,
+      "target": "MS4A1",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.7421371796003868,
+      "score": 2.142137179600387,
+      "target": "MICA",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.740187457810923,
+      "score": 1.740187457810923,
+      "target": "VCAM1",
+      "tier": 2
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.2765630399219834,
+      "score": 1.6765630399219833,
+      "target": "CD19",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.8346577251724087,
+      "score": 1.6346577251724086,
+      "target": "DLL3",
+      "tier": 2
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.3765686128910282,
+      "score": 1.3765686128910282,
+      "target": "CD79A",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 1.2001351955737187,
+      "score": 1.2001351955737187,
+      "target": "ENTPD1",
+      "tier": 2
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.5736630709432009,
+      "score": 0.9736630709432009,
+      "target": "TIGIT",
+      "tier": 2
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.5335483804011028,
+      "score": 0.9335483804011028,
+      "target": "CD4",
+      "tier": 1
+    },
+    {
+      "label": "positive",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.8443238750032012,
+      "score": 0.8443238750032012,
+      "target": "FAP",
+      "tier": 2
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.6665465872954078,
+      "score": 0.6665465872954078,
+      "target": "TNFRSF17",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.1194948521134388,
+      "score": 0.1194948521134388,
+      "target": "GPRC5D",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.1145363096024427,
+      "score": 0.1145363096024427,
+      "target": "CLDN18",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.0317131962351435,
+      "score": 0.0317131962351435,
+      "target": "CLDN6",
+      "tier": 1
+    },
+    {
+      "label": "negative",
+      "protein_concordance": "UNAVAILABLE",
+      "rna_only_score": 0.0,
+      "score": 0.0,
+      "target": "FOLR1",
+      "tier": 2
+    }
+  ]
+}

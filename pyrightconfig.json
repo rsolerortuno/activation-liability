@@ -1,0 +1,8 @@
+{
+  "include": ["src/activation_liability"],
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": false,
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": "none"
+}

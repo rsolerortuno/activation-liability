@@ -1,0 +1,18 @@
+schema_version: 1
+accession: GSE190564
+status: NEXT_PHASE_NOT_ANALYSED
+drive_folder_url: https://drive.google.com/drive/folders/11hz8VhGV2bcSGp3dWmeQlufIsIeZQAzF
+files:
+- filename: GSE190564_processed_data.tar.gz
+  url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190564/suppl/GSE190564_processed_data.tar.gz
+  minimum_size_bytes: 10000000000
+- filename: GSE190564_family.soft.gz
+  url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190564/soft/GSE190564_family.soft.gz
+  minimum_size_bytes: 1000
+required_archive_modalities:
+- GEX
+- ADT
+notes:
+- Do not promote the dataset based on successful download alone.
+- Freeze patient pairing, hashtag mapping and ADT observability before inspecting
+  targets.

@@ -1,0 +1,95 @@
+{
+  "accession": "GSE96583",
+  "annotation_leakage_control": {
+    "method": "leave-target-out marker modules",
+    "targets": [
+      "CD3E",
+      "CD79A",
+      "MS4A1"
+    ]
+  },
+  "condition_source": "GSM library identity; metadata alignment verified exactly",
+  "conditions": {
+    "activated": {
+      "broad_annotation_counts": {
+        "B_cell": 1552,
+        "Myeloid": 4642,
+        "NK_cell": 2257,
+        "Platelet": 291,
+        "T_cell": 4622,
+        "Unknown": 1082
+      },
+      "deposited_condition": "stim",
+      "donor_counts": {
+        "101": 1052,
+        "1015": 2167,
+        "1016": 1499,
+        "1039": 512,
+        "107": 478,
+        "1244": 1334,
+        "1256": 1855,
+        "1488": 2290
+      },
+      "leave_target_out_median_margins": {
+        "CD3E": 1.2143101220207324,
+        "CD79A": 1.0984986507542522,
+        "MS4A1": 1.1208397016551968
+      },
+      "median_annotation_margin_primary": 1.1351490203707106,
+      "n_demuxlet_singlets": 12364,
+      "n_matrix_cells": 14446,
+      "n_metadata_rows_aligned": 14446,
+      "n_primary_cells": 11187,
+      "n_serialized_duplicate_barcodes_repaired": 313,
+      "sample": "GSM2560249"
+    },
+    "resting": {
+      "broad_annotation_counts": {
+        "B_cell": 1763,
+        "Myeloid": 4527,
+        "NK_cell": 1840,
+        "Platelet": 228,
+        "T_cell": 5254,
+        "Unknown": 1007
+      },
+      "deposited_condition": "ctrl",
+      "donor_counts": {
+        "101": 788,
+        "1015": 2549,
+        "1016": 1594,
+        "1039": 372,
+        "107": 475,
+        "1244": 1718,
+        "1256": 1932,
+        "1488": 1849
+      },
+      "leave_target_out_median_margins": {
+        "CD3E": 1.2567841951184544,
+        "CD79A": 1.1552276810391784,
+        "MS4A1": 1.1814249326151267
+      },
+      "median_annotation_margin_primary": 1.208081201546381,
+      "n_demuxlet_singlets": 12315,
+      "n_matrix_cells": 14619,
+      "n_metadata_rows_aligned": 14619,
+      "n_primary_cells": 11277,
+      "n_serialized_duplicate_barcodes_repaired": 0,
+      "sample": "GSM2560248"
+    }
+  },
+  "disease_context": "SLE patient PBMCs",
+  "donors": [
+    "101",
+    "1015",
+    "1016",
+    "1039",
+    "107",
+    "1244",
+    "1256",
+    "1488"
+  ],
+  "n_complete_donor_celltype_pairs": 32,
+  "n_donors": 8,
+  "role": "frozen independent IFN-I replication",
+  "stimulus": "IFN-beta, 6 h"
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-31",
+  "gates": {
+    "clean_stage": {
+      "excluded": [
+        "caches",
+        "bytecode",
+        "virtual environments",
+        "lint tools",
+        "raw GEO TAR/MTX/FASTQ/BAM/H5AD"
+      ],
+      "file_count_before_zip": 120,
+      "forbidden_raw_data_files": 0,
+      "status": "PASS"
+    },
+    "compileall": "PASS",
+    "coverage": {
+      "percent": 85.38011695906432,
+      "scope": "configured non-I/O modules",
+      "status": "PASS"
+    },
+    "manifest_validation": "PASS",
+    "mypy_strict": "PASS",
+    "pyright": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "pytest": {
+      "status": "PASS",
+      "tests": 50
+    },
+    "readme_truthfulness": "PASS",
+    "ruff_format": "PASS",
+    "ruff_lint": "PASS",
+    "tissue_rebuild": {
+      "byte_identical_files": 14,
+      "status": "PASS",
+      "total_files": 14
+    }
+  },
+  "python": "3.13.5",
+  "schema_version": 1,
+  "software_version": "0.5.0",
+  "tools": {
+    "coverage": "7.13.3",
+    "mypy": "2.3.0",
+    "pyright": "1.1.411",
+    "pytest": "9.0.2",
+    "ruff": "0.16.0"
+  }
+}

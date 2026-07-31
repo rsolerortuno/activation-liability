@@ -1,0 +1,45 @@
+version: 1
+provenance_rule: >-
+  Labels are literature-derived biological controls. They must not be inferred from any expression
+  dataset listed in data/registry. Tier 1 is deliberately conservative; uncertain context-dependent
+  targets are Tier 2.
+controls:
+  - {target: IL2RA, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/19635903/", rationale: "Stimulated human antigen-specific CD4 T cells co-induce CD25 and OX40."}
+  - {target: TNFRSF9, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/36883856/", rationale: "4-1BB is an established activation-induced T-cell marker."}
+  - {target: TNFRSF4, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/19635903/", rationale: "Stimulated human antigen-specific CD4 T cells co-induce OX40 and CD25."}
+  - {target: ICOS, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/16210068/", rationale: "ICOS is expressed on activated T cells, but baseline and kinetics are context dependent."}
+  - {target: PDCD1, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/26205583/", rationale: "PD-1 rises with persistent antigen stimulation, but chronic-state interpretation is context dependent."}
+  - {target: CTLA4, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/28606939/", rationale: "CTLA-4 is induced in hyporesponsive or persistently stimulated T cells and has a strong regulatory-T-cell baseline."}
+  - {target: CD274, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/28494868/", rationale: "PD-L1 is induced through interferon receptor signalling."}
+  - {target: PDCD1LG2, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/28494868/", rationale: "PD-L2 responds to type I and type II interferon signalling."}
+  - {target: LAG3, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/26205583/", rationale: "LAG-3 accompanies persistent stimulation and exhaustion; baseline depends on lineage and state."}
+  - {target: HAVCR2, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/25797516/", rationale: "TIM-3 is associated with persistently stimulated and exhausted T cells rather than universal acute activation."}
+  - {target: TIGIT, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/26205583/", rationale: "TIGIT increases in persistently stimulated and exhausted T cells, with context-dependent baseline expression."}
+  - {target: CD38, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/23576305/", rationale: "CD38 is widely used as an activation marker but is also constitutive in selected lineages, including plasma cells."}
+  - {target: CD69, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/28475283/", rationale: "Canonical rapidly induced lymphocyte activation marker."}
+  - {target: TNFRSF18, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/15771565/", rationale: "GITR participates in costimulation after T-cell activation but has a regulatory-T-cell baseline."}
+  - {target: ENTPD1, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/32038613/", rationale: "CD39 marks strongly activated or exhausted T-cell states but is not uniformly acute-inducible."}
+  - {target: CD70, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/26914723/", rationale: "CD70 expression in healthy tissues is restricted largely to activated lymphocytes and selected immune subsets."}
+  - {target: MICA, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/30254634/", rationale: "MICA is a stress-induced NKG2D ligand; the inducing stress and surface persistence vary by context."}
+  - {target: MICB, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/30254634/", rationale: "MICB is a stress-induced NKG2D ligand; the inducing stress and surface persistence vary by context."}
+  - {target: HLA-DRA, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/3133656/", rationale: "Interferon-gamma directly induces HLA-DR alpha transcription."}
+  - {target: ICAM1, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/10924857/", rationale: "Inflammatory cytokines strongly increase ICAM-1 on endothelial and immune cells."}
+  - {target: VCAM1, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/37442359/", rationale: "VCAM-1 is an inflammation-associated endothelial adhesion molecule with stimulus- and tissue-dependent induction."}
+  - {target: SIGLEC1, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/17328080/", rationale: "Type I interferons and Toll-like receptor agonists induce SIGLEC1 on monocytes and macrophages."}
+  - {target: IDO1, label: positive, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/34145969/", rationale: "Interferon-gamma induces IDO1 activity during acute inflammation."}
+  - {target: FAP, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/22834826/", rationale: "FAP marks activated fibroblasts in chronic inflammation, fibrosis, wound healing and extracellular-matrix remodelling."}
+  - {target: TNFRSF12A, label: positive, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/24636536/", rationale: "Fn14/TNFRSF12A participates in tissue responses after acute and chronic injury, inflammation and fibrosis."}
+
+  - {target: CD19, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/8528044/", rationale: "B-lineage marker rather than a generic inflammation-induced normal-cell marker."}
+  - {target: MS4A1, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/36321879/", rationale: "Classic B-cell lineage marker."}
+  - {target: CD79A, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/11396639/", rationale: "B-cell receptor component and diagnostic B-lineage marker."}
+  - {target: TNFRSF17, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/29504446/", rationale: "BCMA is restricted mainly to late B cells and plasma cells."}
+  - {target: GPRC5D, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/38961233/", rationale: "Plasma-cell-associated target rather than broad activation marker."}
+  - {target: CLDN18, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/24710653/", rationale: "Lineage/tissue-associated claudin target."}
+  - {target: CLDN6, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/34948213/", rationale: "Developmental/tumour-associated claudin with low normal adult expression."}
+  - {target: DLL3, label: negative, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/40284515/", rationale: "Tumour-associated target; normal context and intracellular localisation complicate a confident tier-1 label."}
+  - {target: CD3E, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/11037056/", rationale: "CD3 identifies the T-cell lineage rather than a generic inflammation-induced state."}
+  - {target: CD4, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/23612990/", rationale: "CD4 defines a major T-cell lineage, although activation can alter its quantitative expression."}
+  - {target: CD8A, label: negative, tier: 1, citation: "https://pubmed.ncbi.nlm.nih.gov/23612990/", rationale: "CD8 defines a major T-cell lineage, although activation can alter its quantitative expression."}
+  - {target: ERBB2, label: negative, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/11737890/", rationale: "ERBB2/HER2 is a tissue-expressed receptor and oncogenic target, not a generic activation-induced marker."}
+  - {target: FOLR1, label: negative, tier: 2, citation: "https://pubmed.ncbi.nlm.nih.gov/37711615/", rationale: "Epithelial/ovarian target rather than broad activation marker."}

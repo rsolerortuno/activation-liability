@@ -1,0 +1,129 @@
+{
+  "cohorts": {
+    "GSE134809": {
+      "contrast": "involved versus uninvolved within patient",
+      "epithelial_claims": "UNSUPPORTED_EXCLUDED_BY_ORIGINAL_DISSOCIATION_DESIGN",
+      "primary_pairs": 9,
+      "sensitivity_pairs": 11,
+      "tissue": "ileum"
+    },
+    "GSE228421": {
+      "contrast": "baseline lesional versus baseline non-lesional within patient",
+      "post_treatment_visits": "EXCLUDED_FROM_PRIMARY",
+      "primary_pairs": 5,
+      "tissue": "skin"
+    }
+  },
+  "coverage_gain": {
+    "baseline_observable_but_not_tissue_observable": [
+      "CD70",
+      "MICB",
+      "PDCD1LG2"
+    ],
+    "newly_observable_count": 4,
+    "newly_observable_targets": [
+      "ERBB2",
+      "FAP",
+      "TNFRSF17",
+      "VCAM1"
+    ],
+    "note": "Tissue coverage is an extension, not a replacement; loss here means a target was not observable in the tissue cohorts, not that baseline evidence was invalidated."
+  },
+  "crohn_exclusion_sensitivity": {
+    "direction_agreement": 0.924342105263,
+    "maximum_absolute_effect_change": 1.138853249411,
+    "median_absolute_effect_change": 0.135520715036,
+    "n_matched_effects": 304,
+    "spearman_effect_correlation": 0.939467007137
+  },
+  "footprint_summary": {
+    "maximum_expansion": 3,
+    "targets_with_positive_expansion": 8
+  },
+  "negative_binomial_sensitivity": {
+    "both_estimators_positive_fraction": 0.568588469185,
+    "direction_agreement": 0.916500994036,
+    "fit_accounting": {
+      "attempted": 572,
+      "converged": 572,
+      "perfect_separation_warnings": 69
+    },
+    "n_valid": 503,
+    "spearman_effect_correlation": 0.85645225592,
+    "status": "COMPUTED"
+  },
+  "protein_corroboration": {
+    "reason": "Both tissue cohorts provide RNA counts only.",
+    "status": "UNAVAILABLE_FOR_TISSUE_TARGETS"
+  },
+  "schema_version": 1,
+  "software_version": "0.5.0",
+  "status": "COMPUTED_REAL_PAIRED_TISSUE_EXTENSION",
+  "tier1_metrics": {
+    "auroc": 0.821428571429,
+    "average_precision": 0.887351190476,
+    "mann_whitney_p_one_sided": 0.020046620047,
+    "n": 15,
+    "n_negative": 7,
+    "n_positive": 8,
+    "status": "COMPUTED",
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD3E",
+      "CD4",
+      "CD69",
+      "CD79A",
+      "CD8A",
+      "HLA-DRA",
+      "ICAM1",
+      "IDO1",
+      "IL2RA",
+      "MS4A1",
+      "TNFRSF17",
+      "TNFRSF4",
+      "TNFRSF9"
+    ]
+  },
+  "tier1_tier2_metrics": {
+    "auroc": 0.761363636364,
+    "average_precision": 0.904125811472,
+    "mann_whitney_p_one_sided": 0.015385298804,
+    "n": 30,
+    "n_negative": 8,
+    "n_positive": 22,
+    "status": "COMPUTED",
+    "targets": [
+      "CD19",
+      "CD274",
+      "CD38",
+      "CD3E",
+      "CD4",
+      "CD69",
+      "CD79A",
+      "CD8A",
+      "CTLA4",
+      "ENTPD1",
+      "ERBB2",
+      "FAP",
+      "HAVCR2",
+      "HLA-DRA",
+      "ICAM1",
+      "ICOS",
+      "IDO1",
+      "IL2RA",
+      "LAG3",
+      "MICA",
+      "MS4A1",
+      "PDCD1",
+      "SIGLEC1",
+      "TIGIT",
+      "TNFRSF12A",
+      "TNFRSF17",
+      "TNFRSF18",
+      "TNFRSF4",
+      "TNFRSF9",
+      "VCAM1"
+    ]
+  }
+}

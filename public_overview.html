@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>activation-liability</title>
+<style>
+body { font-family: system-ui, sans-serif; margin: 0; color: #1f2937; background: #f8fafc; }
+main { max-width: 1050px; margin: auto; padding: 42px 24px 80px; }
+h1 { font-size: 3rem; margin-bottom: .2rem; }
+h2 { margin-top: 2.4rem; }
+.lead { font-size: 1.25rem; max-width: 850px; }
+.card { background: white; border-radius: 16px; padding: 24px; margin: 20px 0; box-shadow: 0 8px 28px rgba(15,23,42,.08); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 16px; }
+.metric { font-size: 2rem; font-weight: 700; }
+img { max-width: 100%; height: auto; }
+a.button { display:inline-block; padding:12px 18px; border-radius:10px; background:#111827; color:white; text-decoration:none; margin:6px 8px 6px 0; }
+.warning { border-left: 5px solid #6b7280; }
+code { background:#e5e7eb; padding:.15rem .35rem; border-radius:4px; }
+</style>
+</head>
+<body><main>
+<h1>activation-liability</h1>
+<p class="lead">An auditable detector of activation-induced erosion of apparent tumour selectivity for surface targets.</p>
+<p><a class="button" href="../README.md">Repository README</a><a class="button" href="https://drive.google.com/drive/folders/1f3K-MzEQDsUFmMIb5cnFxH47_G-HYPKN">Public Drive</a><a class="button" href="GSE190564_NEXT_PHASE.md">Next phase</a></p>
+<div class="card warning"><strong>Scientific boundary:</strong> this is a liability detector with abstention. It does not predict toxicity, establish a therapeutic window or prove accessible surface protein from RNA.</div>
+<div class="card"><img src="assets/workflow.png" alt="Workflow"></div>
+<h2>Why it matters</h2>
+<div class="card"><p>Targets can appear selective in resting healthy references and become broadly expressed when normal cells encounter interferons, innate activation, lymphocyte stimulation or tissue inflammation. <code>alia</code> measures that expansion using paired donor/patient contrasts and preserves the evidence and uncertainty behind each call.</p></div>
+<h2>Current evidence</h2>
+<div class="grid">
+<div class="card"><div class="metric">4</div><div>blood/sorted-cell public cohorts</div></div>
+<div class="card"><div class="metric">2</div><div>paired inflamed tissue cohorts</div></div>
+<div class="card"><div class="metric">0.821</div><div>tier-1 tissue AUROC</div></div>
+<div class="card"><div class="metric">8</div><div>targets with positive footprint expansion</div></div>
+</div>
+<div class="card"><img src="assets/benchmark_overview.png" alt="Benchmark performance"></div>
+<div class="card"><img src="assets/footprint_expansion.png" alt="Footprint expansion"></div>
+<h2>Next phase</h2>
+<div class="card"><p>GSE190564 adds paired colitis tissue with GEX and CITE-seq ADT. It is documented and downloadable, but it is not yet part of the headline results.</p><p><a class="button" href="GSE190564_NEXT_PHASE.md">Read the frozen plan</a><a class="button" href="https://drive.google.com/drive/folders/11hz8VhGV2bcSGp3dWmeQlufIsIeZQAzF">Open Drive folder</a></p></div>
+</main></body></html>

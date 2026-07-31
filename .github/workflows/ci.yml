@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests, CLI and quality checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Set up Node.js for Pyright
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Verify package import
+        run: |
+          python -c "import activation_liability; print(activation_liability.__version__)"
+
+      - name: Verify CLI
+        run: |
+          alia --help
+          alia validate-manifest data/registry
+
+      - name: Check formatting
+        run: ruff format --check .
+
+      - name: Run Ruff
+        run: ruff check .
+
+      - name: Run mypy
+        run: mypy --strict src
+
+      - name: Run Pyright
+        run: npx --yes pyright@1.1.411
+
+      - name: Run tests and coverage
+        run: |
+          pytest \
+            --cov=activation_liability \
+            --cov-report=term-missing \
+            --cov-report=xml
+
+      - name: Run complete synthetic example
+        run: |
+          alia build \
+            --synthetic \
+            --output /tmp/alia_synthetic.csv
+
+          alia audit \
+            --input /tmp/alia_synthetic.csv \
+            --output /tmp/alia_audit
+
+          alia benchmark \
+            --input /tmp/alia_synthetic.csv \
+            --output /tmp/alia_benchmark
+
+          alia sensitivity \
+            --input /tmp/alia_synthetic.csv \
+            --output /tmp/alia_sensitivity.json
+
+          alia report \
+            --results /tmp/alia_benchmark/benchmark.json \
+            --output /tmp/alia_report.html
+
+          test -s /tmp/alia_synthetic.csv
+          test -s /tmp/alia_audit/audit.json
+          test -s /tmp/alia_audit/claims.json
+          test -s /tmp/alia_benchmark/benchmark.json
+          test -s /tmp/alia_sensitivity.json
+          test -s /tmp/alia_report.html
+
+      - name: Upload example results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: activation-liability-example-results
+          path: |
+            /tmp/alia_audit
+            /tmp/alia_benchmark
+            /tmp/alia_sensitivity.json
+            /tmp/alia_report.html
+          if-no-files-found: warn

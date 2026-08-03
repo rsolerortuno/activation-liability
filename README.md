@@ -1,3 +1,5 @@
+[![CI](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml)
+
 # activation-liability
 
 **CLI:** `alia`  
@@ -16,8 +18,6 @@
   <a href="docs/GSE190564_NEXT_PHASE.md">Next phase: GSE190564</a> ·
   <a href="README_ES.md">Resumen en español</a>
 </p>
-
-[![CI](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rsolerortuno/activation-liability/actions/workflows/ci.yml)
 
 **Runtime:** Python ≥3.11 · **License:** [Apache License 2.0](LICENSE) · **CLI:** `alia`  
 **Verified release:** [52 tests](tests/) · [85.38% non-I/O coverage](docs/PUBLIC_RELEASE_VERIFICATION.md) · RNA + paired-tissue evidence
